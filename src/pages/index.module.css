@@ -21,3 +21,21 @@
   align-items: center;
   justify-content: center;
 }
+
+.container {
+  margin: 0 auto;
+  padding: 0 var(--ifm-spacing-horizontal);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.left {
+  margin: 0 50px 30px;
+}
+
+.preview {
+  width: 800px;
+  margin-bottom: -10%;
+}

