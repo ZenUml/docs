@@ -67,6 +67,25 @@
   margin: 0 auto;
 }
 
+.about {
+  background: #fbfbfb;
+  padding: 1rem;
+}
+
+[data-theme='dark'] .about {
+  background: #1f1f1f;
+}
+
+.aboutWrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 50px 0;
+}
+
+.aboutTitle {
+  color: var(--ifm-color-primary);
+}
+
 @media screen and (max-width: 996px) {
   .heroBanner {
     padding: 2rem;

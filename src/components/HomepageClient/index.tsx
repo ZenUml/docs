@@ -19,7 +19,7 @@ const HomepageClient: FC<Props> = () => {
       <div className={styles.content}>
         ZenUML is known to be used at Amazon, ThoughtWorks, Suncor, and many
         other companies at different sizes. Its Confluence plugin is used by
-        more than 400 organizations.
+        more than 1000 organizations.
       </div>
       {clients.map((client, index) => (
         <img src={client} key={index} alt="client" className={styles.client} />

@@ -4,9 +4,10 @@
 .quotes {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
+  max-width: 1200px;
   margin: 0 auto;
-  width: 1200px;
-  margin: 0 auto;
+  padding: 0 1rem;
 }
 .quote {
   width: 320px;

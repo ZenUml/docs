@@ -38,6 +38,7 @@ function HomepageHeader() {
                 styles.getStarted,
               )}
               href="https://app.zenuml.com/?cta=main"
+              id="btn_main_get_started"
             >
               Get Started
             </Link>
@@ -47,6 +48,7 @@ function HomepageHeader() {
                 styles.button,
               )}
               href="https://zenuml.atlassian.net/wiki/spaces/Doc/overview"
+              id="btn_secondary_read_docs"
             >
               Docs
             </Link>
@@ -185,6 +187,19 @@ export default function Home(): JSX.Element {
         </section>
         <section>
           <HomepageQuote />
+        </section>
+        <section className={styles.about}>
+          <div className={styles.aboutWrapper}>
+            <h2 className={styles.aboutTitle}>About ZenUML</h2>
+            <p>
+              <strong>ZenUML</strong> is a family of diagramming tools operated
+              by P&D Vision Pty Ltd. It works on Atlassian Confluence, any
+              modern browser, JetBrains Intellij IDE. It is featured as a
+              leading diagram-as-code solution for sequence diagrams. Extra
+              capabilities are provided on different platforms. <br />* Not all
+              diagrams are available on all platforms.
+            </p>
+          </div>
         </section>
       </main>
     </Layout>
