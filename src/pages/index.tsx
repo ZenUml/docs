@@ -1,5 +1,4 @@
 import clsx from 'clsx';
-import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Link from '@docusaurus/Link';
 import Layout from '@theme/Layout';
 import Heading from '@theme/Heading';
@@ -162,11 +161,10 @@ const features = [
 ];
 
 export default function Home(): JSX.Element {
-  const { siteConfig } = useDocusaurusContext();
   return (
     <Layout
-      title={`${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />"
+      title="A Free Sequence Diagram Online Tool"
+      description="Description: JavaScript based diagramming tool that renders Markdown-inspired text definitions to create and modify sequence diagrams dynamically."
     >
       <HomepageHeader />
       <main className={styles.main}>

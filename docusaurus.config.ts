@@ -63,7 +63,7 @@ const config: Config = {
       title: 'ZenUML',
       logo: {
         alt: 'ZenUML Logo',
-        src: 'https://zenuml.com/wp-content/uploads/2021/02/logo-90x72.png',
+        src: '/img/logo-90x72.png',
       },
       items: [
         // {
