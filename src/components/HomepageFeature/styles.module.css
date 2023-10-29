@@ -1,0 +1,25 @@
+.container {
+  display: flex;
+  width: 380px;
+  min-height: 300px;
+}
+
+.icon {
+  flex-shrink: 0;
+  color: var(--ifm-color-primary);
+  margin-right: 10px;
+}
+
+.title {
+  color: var(--ifm-color-primary);
+  font-size: 25px;
+  font-weight: 600;
+  line-height: 1.2;
+  height: 70px;
+}
+
+@media (max-width: 1600px) {
+  .container {
+    padding: 0 1rem;
+  }
+}
