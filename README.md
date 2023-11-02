@@ -1,6 +1,9 @@
 <div align="center">
   <h1>ZenUML.com</h1>
   <h2>A Free Sequence Diagram Online Tool</h2>
+
+[Docs](https://docs.zenuml.com) | [Confluence App](https://marketplace.atlassian.com/apps/1218380/zenuml-sequence-diagram?tab=overview&hosting=cloud) | [Chrome Extension](https://chrome.google.com/webstore/detail/zenuml-sequence/kcpganeflmhffnlofpdmcjklmdpbbmef) | [Playground](https://app.zenuml.com)
+
 </div>
 JavaScript based diagramming tool that renders Markdown-inspired text definitions to create and modify sequence diagrams dynamically.
 
