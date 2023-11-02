@@ -4,8 +4,7 @@ export function onRequest(event) {
 
   if (url.pathname.startsWith('/sequence-diagram')) {
     const newPathname = url.pathname.replace('/sequence-diagram', '');
-    // const appURL = new URL(`http://18.141.198.134:8000/${newPathname}`)
-    const appURL = new URL(`https://zenuml.cn`)
+    const appURL = new URL(`http://sequence-diagram.zenuml.com:8000/${newPathname}`)
     return fetch(appURL, event.request);
   }
 
