@@ -1,6 +1,8 @@
-# Website
-
-This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
+<div align="center">
+  <h1>ZenUML.com</h1>
+  <h2>A Free Sequence Diagram Online Tool</h2>
+</div>
+JavaScript based diagramming tool that renders Markdown-inspired text definitions to create and modify sequence diagrams dynamically.
 
 ### Installation
 
