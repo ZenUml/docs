@@ -1,17 +1,19 @@
 export async function onRequest(event) {
   const url = new URL(event.request.url);
-  console.log('request url', url.pathname)
+  let newUrl = url;
+  console.log('original url', url)
 
-  if (url.pathname === '/sequence-diagram') {
+  if (url.pathname === '/sequence-diagram' 
+      || url.pathname.startsWith('/sequence-diagram/share')
+    ) {
     const newPathname = url.pathname.replace('/sequence-diagram', '');
-    const appURL = new URL(`http://sequence-diagram.zenuml.com/${newPathname}`)
-    return fetch(appURL, event.request);
+    newUrl = new URL(`http://sequence-diagram.zenuml.com${newPathname}`)
   } 
   
   else if (url.pathname.endsWith('.js') || url.pathname.endsWith('.css')) {
-    const appURL = new URL(`http://sequence-diagram.zenuml.com/${url.pathname}`)
-    return fetch(appURL, event.request);
+    newUrl = new URL(`http://sequence-diagram.zenuml.com${url.pathname}`)
   }
 
-  return fetch(event.request);
+  console.log('new url', newUrl)
+  return fetch(newUrl, event.request);
 }
