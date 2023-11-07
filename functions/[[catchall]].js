@@ -1,6 +1,7 @@
-const targetDomain = 'sequence-diagram.zenuml.com';
-const newOrigin = `https://${targetDomain}`;
-const newOrigin2 = `http://${targetDomain}`;
+const targetDomain =
+  process.env.LARASITE_DOMAIN || 'sequence-diagram.zenuml.com';
+const newHttpsOrigin = `https://${targetDomain}`;
+const newHttpOrigin = `http://${targetDomain}`;
 
 export async function onRequest(event) {
   const url = new URL(event.request.url);
@@ -15,20 +16,16 @@ export async function onRequest(event) {
     newPathname = url.pathname.replace('/sequence-diagram', '');
   }
 
-  // else if (url.pathname.endsWith('.js') || url.pathname.endsWith('.css')
-  //     || url.pathname.startsWith('/vendor')
-  //     || url.pathname.startsWith('/login')) {
-  //   newPathname = url.pathname;
-  // }
-
-  const newUrl = `${newOrigin}${newPathname}`;
+  const newUrl = `${newHttpsOrigin}${newPathname}`;
   console.log('new url:', newUrl);
 
   const response = await fetch(new URL(newUrl), event.request);
   const body = await response.text();
 
   const replaceUrl = (s) =>
-    s.replaceAll(newOrigin, url.origin).replaceAll(newOrigin2, url.origin);
+    s
+      .replaceAll(newHttpsOrigin, url.origin)
+      .replaceAll(newHttpOrigin, url.origin);
   const newBody = replaceUrl(body);
 
   const newHeaders = new Headers(response.headers);
