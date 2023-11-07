@@ -1,9 +1,9 @@
-const targetDomain =
-  process.env.LARASITE_DOMAIN || 'sequence-diagram.zenuml.com';
-const newHttpsOrigin = `https://${targetDomain}`;
-const newHttpOrigin = `http://${targetDomain}`;
-
 export async function onRequest(event) {
+  const targetDomain =
+    event.env.LARASITE_DOMAIN || 'sequence-diagram.zenuml.com';
+  const newHttpsOrigin = `https://${targetDomain}`;
+  const newHttpOrigin = `http://${targetDomain}`;
+
   const url = new URL(event.request.url);
   console.log('original url:', url);
 
