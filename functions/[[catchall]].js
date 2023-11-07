@@ -2,7 +2,7 @@ const targetDomain = 'sequence-diagram.zenuml.com';
 const newOrigin = `https://${targetDomain}`;
 const newOrigin2 = `http://${targetDomain}`;
 
-export async function proxy(event) {
+export async function onRequest(event) {
   const url = new URL(event.request.url);
   console.log('original url:', url);
 
