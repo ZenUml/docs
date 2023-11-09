@@ -72,24 +72,24 @@ const faqList = [
   },
   {
     title: 'On which platforms is ZenUML.com available?',
-    content: 'Web, Confluence, JetBrains, Desktop', // TODO: add links
+    content: 'Web, Confluence, JetBrains, Desktop.', // TODO: add links
   },
   {
     title: 'How to Install Confluence Plugin',
     content: (
       <ul className="list-decimal">
         <li>
-          Click on <b>Settings</b> on your <b>Confluence Cloud</b> instance
+          Click on <b>Settings</b> on your <b>Confluence Cloud</b> instance.
         </li>
         <li>
-          Click <b>Find new apps</b> from the left-hand side of the page
+          Click <b>Find new apps</b> from the left-hand side of the page.
         </li>
         <li>
           Locate <b>ZenUML Diagrams for Confluence (FREEMIUM)</b> or{' '}
-          <b>ZenUML Diagrams and Open API Lite</b> via search
+          <b>ZenUML Diagrams and Open API Lite</b> via search.
         </li>
         <li>
-          Click <b>Try it free</b> or <b>Get app</b>
+          Click <b>Try it free</b> or <b>Get app.</b>
         </li>
         <li>You&apos;re done!</li>
       </ul>
