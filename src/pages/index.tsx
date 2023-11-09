@@ -16,6 +16,7 @@ import {
 
 import styles from './index.module.css';
 import HomepageQuote from '../components/HomepageQuote';
+import HomePageFAQ from '@site/src/components/HomePageFAQ';
 
 function HomepageHeader() {
   return (
@@ -198,6 +199,9 @@ export default function Home(): JSX.Element {
               diagrams are available on all platforms.
             </p>
           </div>
+        </section>
+        <section>
+          <HomePageFAQ />
         </section>
       </main>
     </Layout>
