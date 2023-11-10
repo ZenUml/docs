@@ -61,18 +61,9 @@ AccordionTrigger.displayName = 'AccordionTrigger';
 
 const faqList = [
   {
-    title: 'Privacy and data protection information',
-    content:
-      'The tool itself does not collect data. However, the services it relies on, such as Content Delivery Network, hosting, and cloud storage, may collect data. For more details, please refer to our privacy policy.',
-  },
-  {
     title:
       'Are diagrams/scripts created using zenuml.com/sequence-diagram subject to any license?',
     content: 'No license is imposed by ZenUML on the generated output.',
-  },
-  {
-    title: 'On which platforms is ZenUML.com available?',
-    content: 'Web, Confluence, JetBrains, Desktop.', // TODO: add links
   },
   {
     title: 'How to Install Confluence Plugin',
