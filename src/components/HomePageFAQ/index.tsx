@@ -19,6 +19,7 @@ interface AccordionTriggerProps {
   children: React.ReactNode;
   className?: string;
   align?: string;
+  id?: string;
 }
 
 const AccordionContent = forwardRef<HTMLDivElement, AccordionContentProps>(
@@ -46,8 +47,8 @@ const AccordionItem = forwardRef<HTMLDivElement, AccordionItemProps>(
 AccordionItem.displayName = 'AccordionItem';
 
 const AccordionTrigger = forwardRef<HTMLButtonElement, AccordionTriggerProps>(
-  ({ children, ...props }, forwardedRef) => (
-    <Accordion.Header>
+  ({ children, id, ...props }, forwardedRef) => (
+    <Accordion.Header id={id}>
       <Accordion.Trigger {...props} ref={forwardedRef} asChild>
         <div className="flex items-center justify-between text-lg">
           {children}
@@ -61,11 +62,13 @@ AccordionTrigger.displayName = 'AccordionTrigger';
 
 const faqList = [
   {
+    id: 'faq-license',
     title:
       'Are diagrams/scripts created using zenuml.com/sequence-diagram subject to any license?',
     content: 'No license is imposed by ZenUML on the generated output.',
   },
   {
+    id: 'faq-install',
     title: 'How to Install Confluence Plugin',
     content: (
       <ul className="list-decimal">
@@ -98,7 +101,7 @@ const HomepageFAQ: FC<Props> = () => {
             {faqList.map((item) => {
               return (
                 <AccordionItem key={item.title} value={item.title}>
-                  <AccordionTrigger>{item.title}</AccordionTrigger>
+                  <AccordionTrigger id={item.id}>{item.title}</AccordionTrigger>
                   <AccordionContent>{item.content}</AccordionContent>
                 </AccordionItem>
               );
