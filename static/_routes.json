@@ -3,6 +3,7 @@
   "include": [
     "/sequence-diagram/*",
     "/diagrams/*",
+    "/fonts/*",
     "/vendor/*",
     "/image/*",
     "/login",
