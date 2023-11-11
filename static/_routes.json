@@ -2,6 +2,7 @@
   "version": 1,
   "include": [
     "/sequence-diagram/*",
+    "/diagrams/*",
     "/vendor/*",
     "/image/*",
     "/login",
