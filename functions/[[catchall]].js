@@ -1,54 +1,55 @@
 const TEXT_CONTENT_TYPES = ['text', 'application/json', 'application/xml'];
 
 export async function onRequest(event) {
-  const targetDomain =
+  const larasiteDomain =
     event.env.LARASITE_DOMAIN || 'sequence-diagram.zenuml.com';
-  const newHttpsOrigin = `https://${targetDomain}`;
-  const newHttpOrigin = `http://${targetDomain}`;
+  const larasiteBaseHttps = `https://${larasiteDomain}`;
+  const larasiteBaseHttp = `http://${larasiteDomain}`;
 
-  const url = new URL(event.request.url);
-  console.log('original url:', url);
+  const inboundUrl = new URL(event.request.url);
+  console.log('inbound url:', inboundUrl);
 
-  let newPathname = url.pathname;
+  let outboundPathname = inboundUrl.pathname;
 
   if (
-    url.pathname === '/sequence-diagram' ||
-    url.pathname.startsWith('/sequence-diagram/share')
+    inboundUrl.pathname === '/sequence-diagram' ||
+    inboundUrl.pathname.startsWith('/sequence-diagram/share')
   ) {
-    newPathname = url.pathname.replace('/sequence-diagram', '');
+    outboundPathname = inboundUrl.pathname.replace('/sequence-diagram', '');
   }
 
-  const newUrl = `${newHttpsOrigin}${newPathname}`;
-  console.log('new url:', newUrl);
+  const outboundUrl = `${larasiteBaseHttps}${outboundPathname}`;
+  console.log('outbound url:', outboundUrl);
 
-  const response = await fetch(new URL(newUrl), event.request);
+  // response from the larasite host
+  const inboundResponse = await fetch(new URL(outboundUrl), event.request);
 
   const replaceUrl = (s) =>
     s
-      .replaceAll(newHttpsOrigin, url.origin)
-      .replaceAll(newHttpOrigin, url.origin);
+      .replaceAll(larasiteBaseHttps, inboundUrl.origin)
+      .replaceAll(larasiteBaseHttp, inboundUrl.origin);
 
   const isTextResponse = () => {
-    const contentType = response.headers.get('content-type');
+    const contentType = inboundResponse.headers.get('content-type');
     return (
       contentType &&
       TEXT_CONTENT_TYPES.find((p) => contentType.toLowerCase().startsWith(p))
     );
   };
 
-  const newResponseData = isTextResponse()
-    ? replaceUrl(await response.text())
-    : await response.arrayBuffer();
+  const outboundResponseData = isTextResponse()
+    ? replaceUrl(await inboundResponse.text())
+    : await inboundResponse.arrayBuffer();
 
-  const newHeaders = new Headers(response.headers);
-  for (const [header, value] of newHeaders) {
-    newHeaders.set(header, replaceUrl(value));
+  const outboundResponseHeaders = new Headers(inboundResponse.headers);
+  for (const [header, value] of outboundResponseHeaders) {
+    outboundResponseHeaders.set(header, replaceUrl(value));
   }
-  newHeaders.set('X-Forwarded-By', 'Cloudflare page function');
+  outboundResponseHeaders.set('X-Forwarded-By', 'Cloudflare page function');
 
-  return new Response(newResponseData, {
-    status: response.status,
-    statusText: response.statusText,
-    headers: newHeaders,
+  return new Response(outboundResponseData, {
+    status: inboundResponse.status,
+    statusText: inboundResponse.statusText,
+    headers: outboundResponseHeaders,
   });
 }
