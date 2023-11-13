@@ -10,6 +10,19 @@
   overflow: hidden;
 }
 
+div[class^='announcementBar_'] {
+  font-size: 20px;
+  color: #fff;
+  background: #1f1f1f;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  height: auto;
+}
+
+div[class^='announcementBar_'] [aria-label='Close'] {
+  color: inherit;
+}
+
 .subtitle {
   max-width: 760px;
   margin: 0 auto;

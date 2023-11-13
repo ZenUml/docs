@@ -195,6 +195,10 @@ const config: Config = {
       theme: prismThemes.github,
       darkTheme: prismThemes.dracula,
     },
+    announcementBar: {
+      id: 'announcementBar',
+      content: `🎉️ <b>Black Friday Special! ZenUML, is now available on the <a target="_blank" href="https://apps.apple.com/us/app/sequence-diagram-tool-zenuml/id1602636196?mt=12?mt=12">Mac App Store</a>.</b> 🥳️`,
+    },
   } satisfies Preset.ThemeConfig,
 };
 
