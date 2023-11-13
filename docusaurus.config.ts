@@ -197,7 +197,7 @@ const config: Config = {
     },
     announcementBar: {
       id: 'announcementBar',
-      content: `🎉️ <b>Black Friday Special! ZenUML, is now available on the <a target="_blank" href="https://apps.apple.com/us/app/sequence-diagram-tool-zenuml/id1602636196?mt=12?mt=12">Mac App Store</a>.</b> 🥳️`,
+      content: `🎉️ <b>On 24th Nov, the biggest sale will kick off on <a target="_blank" href="https://apps.apple.com/us/app/sequence-diagram-tool-zenuml/id1602636196?mt=12?mt=12">Mac App Store</a>, $0.99 for a permanent license, only for that day!</b> 🥳️`,
     },
   } satisfies Preset.ThemeConfig,
 };
