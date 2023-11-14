@@ -59,7 +59,6 @@ const config: Config = {
       'classic',
       {
         docs: false,
-        blog: false,
         // docs: {
         //   sidebarPath: './sidebars.ts',
         //   // Please change this to your repo.
@@ -67,13 +66,9 @@ const config: Config = {
         //   editUrl:
         //     'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         // },
-        // blog: {
-        //   showReadingTime: true,
-        //   // Please change this to your repo.
-        //   // Remove this to remove the "edit this page" links.
-        //   editUrl:
-        //     'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
-        // },
+        blog: {
+          showReadingTime: true,
+        },
         theme: {
           customCss: './src/css/custom.css',
         },
@@ -97,12 +92,12 @@ const config: Config = {
         //   position: 'left',
         //   label: 'Tutorial',
         // },
-        // { to: '/blog', label: 'Blog', position: 'left' },
-        {
-          href: 'https://github.com/ZenUml',
-          label: 'GitHub',
-          position: 'right',
-        },
+        { to: '/blog', label: 'Blog', position: 'left' },
+        // {
+        //   href: 'https://github.com/ZenUml',
+        //   label: 'GitHub',
+        //   position: 'right',
+        // },
       ],
     },
     footer: {
