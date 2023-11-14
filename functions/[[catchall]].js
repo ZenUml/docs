@@ -1,5 +1,6 @@
 const TEXT_CONTENT_TYPES = ['text', 'application/json', 'application/xml'];
-
+// How the reverse proxy works
+// https://zenuml.com/sequence-diagram/share/7fc5e57b-d812-4c7d-a86b-d35ef96fe302:nWttdaNAxHJBTeZ9wDAKq76h59wfn9JK?v=261b6bffef8fa6485be52c40981f71e5
 export async function onRequest(event) {
   const larasiteDomain =
     event.env.LARASITE_DOMAIN || 'sequence-diagram.zenuml.com';

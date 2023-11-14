@@ -8,6 +8,7 @@
     "/image/*",
     "/login",
     "/auth/*",
+    "/livewire/*",
     "/public-diagrams"
   ],
   "exclude": []
