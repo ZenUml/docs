@@ -23,7 +23,7 @@ function HomepageHeader() {
     <header className={clsx('hero hero--primary', styles.heroBanner)}>
       <div className={styles.container}>
         <div className={styles.left}>
-          <Heading as="h1" className="hero__title">
+          <Heading as="h1" className={clsx('hero__title', styles.title)}>
             Create diagrams faster and better
           </Heading>
           <p className={clsx('hero__subtitle', styles.subtitle)}>
