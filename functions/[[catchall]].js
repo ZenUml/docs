@@ -14,7 +14,8 @@ export async function onRequest(event) {
 
   if (
     inboundUrl.pathname === '/sequence-diagram' ||
-    inboundUrl.pathname.startsWith('/sequence-diagram/share')
+    inboundUrl.pathname.startsWith('/sequence-diagram/share') ||
+    inboundUrl.pathname.startsWith('/sequence-diagram/embed')
   ) {
     outboundPathname = inboundUrl.pathname.replace('/sequence-diagram', '');
   }
