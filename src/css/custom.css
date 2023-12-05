@@ -33,3 +33,11 @@
   --ifm-color-primary-lightest: #00c3ff;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
+
+.zenuml-embed {
+  border-radius: 6px;
+  overflow: hidden;
+  font-size: 0;
+  margin-bottom: 20px;
+  border: 1px solid #dadde1;
+}
