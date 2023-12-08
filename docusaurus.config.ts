@@ -193,7 +193,7 @@ const config: Config = {
     },
     announcementBar: {
       id: 'announcementBar',
-      content: `🎉️ <b>Take advantage of the upcoming Cyber Monday discount on the <a target="_blank" href="https://apps.apple.com/us/app/sequence-diagram-tool-zenuml/id1602636196?mt=12?mt=12">Mac App Store</a>. Get a lifetime license for just $4.99, down from $29.99. Don't miss out; this offer is valid only from the 27th to the 29th! 🎉️ 🥳️`,
+      content: `🎄 This Christmas, unwrap the joy of savings with our special holiday offer: get our premium Mac application for just $4.99 at <a target="_blank" href="https://apps.apple.com/us/app/sequence-diagram-tool-zenuml/id1602636196?mt=12?mt=12">Mac App Store</a>, a festive reduction from the regular price of $29.99!. 🎉️ 🥳️`,
     },
   } satisfies Preset.ThemeConfig,
 };
