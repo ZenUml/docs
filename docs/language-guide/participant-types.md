@@ -5,14 +5,16 @@ title: Participant Types
 #pagination_label: Quick Start
 description: ZenUML Syntax - Participant Type
 keywords:
-  - zenuml
-  - uml diagram
-  - participant
-  - diagram as code
+  - participant types
+  - participant icons
+  - uml participant
+  - uml annotation
 #slug: /quick-start
 ---
 
 # Participant Type (Annotation)
+
+## Use Annotation
 
 We offer a curated collection of presets tailored for various participant types, each featuring distinct shapes or icons to suit your specific needs.
 
