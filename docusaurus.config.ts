@@ -60,7 +60,7 @@ const config: Config = {
       'classic',
       {
         // remove false to enable docs
-        docs: false && {
+        docs: {
           sidebarPath: './sidebars.ts',
           editUrl: 'https://github.com/ZenUml/docs',
           remarkPlugins: [ZenUMLPlugin],
@@ -86,6 +86,10 @@ const config: Config = {
   themeConfig: {
     // Replace with your project's social card
     image: 'img/og-image.png',
+    metadata: [
+      { name: 'keywords', content: 'cooking, blog' },
+      { name: 'twitter:card', content: 'test_twitter_config' },
+    ],
     navbar: {
       title: 'ZenUML',
       logo: {
@@ -114,8 +118,8 @@ const config: Config = {
           title: 'Docs',
           items: [
             {
-              label: 'Tutorial',
-              href: 'https://zenuml.atlassian.net/wiki/spaces/Doc/overview',
+              label: 'What is ZenUML?',
+              href: 'https://zenuml.com/docs',
             },
           ],
         },
