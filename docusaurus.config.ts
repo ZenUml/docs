@@ -87,8 +87,11 @@ const config: Config = {
     // Replace with your project's social card
     image: 'img/og-image.png',
     metadata: [
-      { name: 'keywords', content: 'cooking, blog' },
-      { name: 'twitter:card', content: 'test_twitter_config' },
+      {
+        name: 'keywords',
+        content:
+          'sequence diagram, tool, uml diagram, software architecture, visualizations',
+      },
     ],
     navbar: {
       title: 'ZenUML',
