@@ -121,8 +121,8 @@ const config: Config = {
           title: 'Docs',
           items: [
             {
-              label: 'What is ZenUML?',
-              href: 'https://zenuml.com/docs',
+              label: 'Docs',
+              href: '/docs',
             },
           ],
         },
