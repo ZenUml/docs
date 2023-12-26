@@ -6,11 +6,10 @@ title: Quick Start
 description: What is ZenUML and why it's different.
 keywords:
   - zenuml
-  - diagram as code
+  - guidance
   - sequence diagrams
-  - realtime rendering
-  - interactive diagrams
-#slug: /quick-start
+  - UML diagram
+slug: /zenuml-quick-start
 ---
 
 # Quick Start
