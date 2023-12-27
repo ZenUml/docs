@@ -142,7 +142,7 @@ const config: Config = {
               href: 'https://app.zenuml.com/',
             },
             {
-              label: 'Chrome Extendsion',
+              label: 'Chrome Extension',
               href: 'https://chrome.google.com/webstore/detail/web-sequence/kcpganeflmhffnlofpdmcjklmdpbbmef',
             },
             {
