@@ -20,7 +20,7 @@ slug: /
 
 **ZenUML** is a family of diagramming tools operated by P&D Vision Pty Ltd. It works on Atlassian Confluence, any modern browser, JetBrains Intellij IDE. It is featured as a leading diagram-as-code solution for sequence diagrams. Extra capabilities are provided on different platforms.
 
-![](img/zenuml-laptop.png)
+![](../../static/img/docs/overview-laptop.png)
 
 ## Real Time Rendering
 
