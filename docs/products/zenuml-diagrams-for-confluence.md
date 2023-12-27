@@ -62,6 +62,46 @@ In view mode, you can search on the diagram by using standard browser searching 
 
 ![](../../static/img/docs/product-zenuml-for-confluence-06.png)
 
+## New Features
+
+### Highlight Diagram Messages / Code
+
+When you move the cursor in the code editor, the corresponding message will be highlighted; if you click a message in the diagram, the corresponding code will be highlight in the editor.
+
+![](../../static/img/docs/product-zenuml-confluence-07.png)
+
+### Quick Toolbar
+
+![](../../static/img/docs/product-zenuml-confluence-08.png)
+
+### ZenUML Graph
+
+A new macro has been added to the ZenUML plugin. With this new macro you can draw any diagram you like. We are migrating text to digram feature to this new macro.
+
+This macro is built on top of [mxgraph](https://jgraph.github.io/mxgraph/).
+
+### Markdown in Comments
+
+Markdown in comment will be rendered. Please checkout below example code.
+
+```zenuml title=Loops
+// `POST order`
+//
+// - [ ] Setup loadbalancer
+// - [x] Config Kong gateway - [instrucions](document)
+OrderController.create() {
+
+  // Create an **immutable** order
+  // - [ ] Build a microservice
+  OrderService.create() {
+    // | id | Prod_Name | Price | Inserted_At |
+    // |----|-----------|-------|-------------|
+    // |123 | book 1    | $10.00| 2020-06-30  |
+    OrderRepo.save()
+  }
+}
+```
+
 ## Compliant with Standard
 
 We have built-in our 20 years of experience in software development and architecture into ZenUML. The produced diagram is automatically standard compliant with [OMG UML(R) 2.5.1](https://www.omg.org/spec/UML/2.5.1/About-UML).
