@@ -18,12 +18,37 @@ ZenUML is a sophisticated software modeler aimed to support agile and concise mo
 
 ![](../../static/img/docs/features-01.png)
 
-## Core Features
+## Diagram as Code
 
 - Multi-platform support (Web, Atlassian confluence, VSCode, JetBrains etc), please find more information on [Products](/docs/products/)
 - UML 2.x standard compliant
 - Rapid drawing without drag-and-drop
-- Export to PNG/JPEG and PDF(Confluence only)
+
+## Export/Copy as Image
+
+- We support **PNG** and PDF(on Confluence)
+
+## Markdown in Comments
+
+Markdown in comment will be rendered. Please checkout below example code.
+
+```zenuml title=Loops
+// `POST order`
+//
+// - [ ] Setup loadbalancer
+// - [x] Config Kong gateway - [instrucions](document)
+OrderController.create() {
+
+  // Create an **immutable** order
+  // - [ ] Build a microservice
+  OrderService.create() {
+    // | id | Prod_Name | Price | Inserted_At |
+    // |----|-----------|-------|-------------|
+    // |123 | book 1    | $10.00| 2020-06-30  |
+    OrderRepo.save()
+  }
+}
+```
 
 ## Customized Style
 

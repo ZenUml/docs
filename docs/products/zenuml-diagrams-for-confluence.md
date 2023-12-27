@@ -80,27 +80,9 @@ A new macro has been added to the ZenUML plugin. With this new macro you can dra
 
 This macro is built on top of [mxgraph](https://jgraph.github.io/mxgraph/).
 
-### Markdown in Comments
+### Mermaid Diagrams
 
-Markdown in comment will be rendered. Please checkout below example code.
-
-```zenuml title=Loops
-// `POST order`
-//
-// - [ ] Setup loadbalancer
-// - [x] Config Kong gateway - [instrucions](document)
-OrderController.create() {
-
-  // Create an **immutable** order
-  // - [ ] Build a microservice
-  OrderService.create() {
-    // | id | Prod_Name | Price | Inserted_At |
-    // |----|-----------|-------|-------------|
-    // |123 | book 1    | $10.00| 2020-06-30  |
-    OrderRepo.save()
-  }
-}
-```
+In the latest version, we have integrated mermaid into the plugin.
 
 ## Compliant with Standard
 
