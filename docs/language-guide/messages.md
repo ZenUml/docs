@@ -5,16 +5,16 @@ title: Messages
 #pagination_label: Quick Start
 description: ZenUML Syntax - Messages
 keywords:
-  - participant types
-  - participant icons
-  - uml participant
-  - uml annotation
+  - Unified Modeling Language
+  - uml messages
+  - async
+  - sync
 #slug: /quick-start
 ---
 
 # Messages
 
-## Messages Definition
+## Message Definition
 
 A message is shown as a line from the sender MessageEnd to the receiver MessageEnd.
 
