@@ -18,7 +18,7 @@ Welcome to ZenUML, your ultimate diagram-as-code tool for UML sequence diagrams.
 
 ## Your first diagram
 
-> You can change the code as your wish.
+> You can use below section as playground.
 
 ```zenuml title=Hello%20World
 new A {
