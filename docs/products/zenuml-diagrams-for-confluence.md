@@ -38,11 +38,14 @@ A ZenUML diagram/graph can be created within any Confluence page you have permis
 
 **From the menu** **+↓**
 
-![](../../static/img/docs/product-zenuml-for-confluence-02.png)
+import confluenceImg02 from '../../static/img/docs/product-zenuml-for-confluence-02.png';
+import confluenceImg03 from '../../static/img/docs/product-zenuml-for-confluence-03.png';
+
+<img src = {confluenceImg02} width="400"/>
 
 You can also use the shortcut: **/zenuml**.
 
-![](../../static/img/docs/product-zenuml-for-confluence-03.png)
+<img src = {confluenceImg03} width="400" />
 
 ### Edit mode
 
