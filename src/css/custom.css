@@ -41,3 +41,21 @@
   margin-bottom: 20px;
   border: 1px solid #dadde1;
 }
+
+/* img presets using alt in markdown to specify. */
+img[alt='zen-img-size-small'] {
+  width: 200px;
+}
+img[alt='zen-img-size-normal'] {
+  width: 400px;
+}
+
+img[alt='zen-img-pct-small'] {
+  width: 25%;
+}
+img[alt='zen-img-pct-normal'] {
+  width: 50%;
+}
+img[alt='zen-img-pct-large'] {
+  width: 80%;
+}
