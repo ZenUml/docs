@@ -110,7 +110,12 @@ const config: Config = {
         //   position: 'left',
         //   label: 'Tutorial',
         // },
-        // { to: '/blog', label: 'Blog', position: 'left' },
+        {
+          to: 'https://app.zenuml.com/?src=docs',
+          label: 'WebApp',
+          position: 'right',
+        },
+        { to: '/docs', label: 'Docs', position: 'right' },
         {
           href: 'https://github.com/ZenUml',
           label: 'GitHub',
