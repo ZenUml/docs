@@ -125,8 +125,20 @@ const config: Config = {
           title: 'Docs',
           items: [
             {
-              label: 'Docs',
+              label: 'What is ZenUML?',
               href: '/docs',
+            },
+            {
+              label: 'Quick Start',
+              href: '/docs/zenuml-quick-start',
+            },
+            {
+              label: 'Products',
+              href: '/docs/category/products',
+            },
+            {
+              label: 'Language Guide',
+              href: '/docs/category/language-guide',
             },
           ],
         },
