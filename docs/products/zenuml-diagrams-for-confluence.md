@@ -84,6 +84,16 @@ This macro is built on top of [mxgraph](https://jgraph.github.io/mxgraph/).
 
 In the latest version, we have integrated mermaid into the plugin.
 
+## Data Privacy and Security
+
+We compliance with the [Atlassian security self-assessment](https://developer.atlassian.com/platform/marketplace/security-self-assessment-program/).
+
+We do not store or access any of your data. ZenUML App is following a Serverless architecture style, **unlike** other products, all ZenUML diagrams are generated within browser using HTML (+SVG), JavaScript and CSS. The following diagram shows a high-level architecture of the Application.
+
+![](../../static/img/docs/product-zenuml-confluence-09.png)
+
+We only collect usage data via Google analytics.
+
 ## Compliant with Standard
 
 We have built-in our 20 years of experience in software development and architecture into ZenUML. The produced diagram is automatically standard compliant with [OMG UML(R) 2.5.1](https://www.omg.org/spec/UML/2.5.1/About-UML).
