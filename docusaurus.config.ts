@@ -60,7 +60,7 @@ const config: Config = {
       'classic',
       {
         // remove false to enable docs
-        docs: false && {
+        docs: {
           sidebarPath: './sidebars.ts',
           editUrl: 'https://github.com/ZenUml/docs',
           remarkPlugins: [ZenUMLPlugin],
@@ -90,6 +90,13 @@ const config: Config = {
   themeConfig: {
     // Replace with your project's social card
     image: 'img/og-image.png',
+    metadata: [
+      {
+        name: 'keywords',
+        content:
+          'sequence diagram, tool, uml diagram, software architecture, visualizations',
+      },
+    ],
     navbar: {
       title: 'ZenUML',
       logo: {
@@ -103,7 +110,12 @@ const config: Config = {
         //   position: 'left',
         //   label: 'Tutorial',
         // },
-        // { to: '/blog', label: 'Blog', position: 'left' },
+        {
+          to: 'https://app.zenuml.com/?src=docs',
+          label: 'WebApp',
+          position: 'right',
+        },
+        { to: '/docs', label: 'Docs', position: 'right' },
         {
           href: 'https://github.com/ZenUml',
           label: 'GitHub',
@@ -118,8 +130,20 @@ const config: Config = {
           title: 'Docs',
           items: [
             {
-              label: 'Tutorial',
-              href: 'https://zenuml.atlassian.net/wiki/spaces/Doc/overview',
+              label: 'What is ZenUML?',
+              href: '/docs',
+            },
+            {
+              label: 'Quick Start',
+              href: '/docs/zenuml-quick-start',
+            },
+            {
+              label: 'Products',
+              href: '/docs/category/products',
+            },
+            {
+              label: 'Language Guide',
+              href: '/docs/category/language-guide',
             },
           ],
         },
@@ -135,7 +159,7 @@ const config: Config = {
               href: 'https://app.zenuml.com/',
             },
             {
-              label: 'Chrome Extendsion',
+              label: 'Chrome Extension',
               href: 'https://chrome.google.com/webstore/detail/web-sequence/kcpganeflmhffnlofpdmcjklmdpbbmef',
             },
             {

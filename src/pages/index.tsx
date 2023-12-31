@@ -47,7 +47,7 @@ function HomepageHeader() {
                 'button button--secondary button--lg',
                 styles.button,
               )}
-              href="https://zenuml.atlassian.net/wiki/spaces/Doc/overview"
+              href="/docs"
               id="btn_secondary_read_docs"
             >
               Docs
