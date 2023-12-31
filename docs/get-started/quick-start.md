@@ -21,11 +21,7 @@ Welcome to ZenUML, your ultimate diagram-as-code tool for UML sequence diagrams.
 > You can use below section as playground.
 
 ```zenuml title=Hello%20World
-new A {
-  b = new B
-  return b
-}
-
+A->B:message
 ```
 
 Congratuations! You just completed your first diagram with **ZenUML** Code!
