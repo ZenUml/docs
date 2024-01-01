@@ -44,4 +44,4 @@ Don't let limitations hold you back. Upgrade to Premium and experience the full 
 
 Thank you for considering the upgrade. We're excited to welcome you to our Premium family and look forward to supporting your success!
 
-[**Upgrade Now**](<[#how-to-upgrade](https://marketplace.atlassian.com/apps/1218380/zenuml-diagrams-for-confluence-freemium?tab=overview&hosting=cloud)>)
+[**Upgrade Now**](https://marketplace.atlassian.com/apps/1218380/zenuml-diagrams-for-confluence-freemium?tab=overview&hosting=cloud)
