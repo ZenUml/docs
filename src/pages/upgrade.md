@@ -34,7 +34,7 @@ We've got answers to your top questions about upgrading:
 #### Do I have to subscribe?
 
 - **During the trial**: Enjoy a clear view with no upgrade prompts.
-- **Post-trial**: A gentle nudge in the form of subscription instructions will appear, guiding you through the process. You will still be able to use the core features of our product.
+- **Post-trial**: A gentle nudge in the form of subscription instructions will appear, guiding you through the process. You will still be able to use the core features of our product without a subscription which is the same as the Lite version.
 
 ### **Make the Switch Today!**
 
