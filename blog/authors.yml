@@ -1,17 +1,11 @@
-endi:
-  name: Endilie Yacop Sucipto
-  title: Maintainer of Docusaurus
-  url: https://github.com/endiliey
-  image_url: https://github.com/endiliey.png
+xiaopeng:
+  name: Xiao Peng
+  title: Cofounder @ ZenUML
+  url: https://github.com/mrcoder
+  image_url: https://github.com/mrcoder.png
 
-yangshun:
-  name: Yangshun Tay
-  title: Front End Engineer @ Facebook
-  url: https://github.com/yangshun
-  image_url: https://github.com/yangshun.png
-
-slorber:
-  name: Sébastien Lorber
-  title: Docusaurus maintainer
-  url: https://sebastienlorber.com
-  image_url: https://github.com/slorber.png
+xiaowenz:
+  name: Xiaowen Zhang
+  title: SME @ ZenUML
+  url: https://github.com/iamshaynez
+  image_url: https://github.com/iamshaynez.png
