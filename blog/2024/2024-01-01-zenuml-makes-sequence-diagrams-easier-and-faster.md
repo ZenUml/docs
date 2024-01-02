@@ -3,7 +3,7 @@ title: ZenUML makes drawing sequence diagrams easier and faster
 description: What is ZENUML's advantage on creating UML diagrams from decent codes, compare with PlantUML
 slug: zenuml-makes-sequence-diagrams-easier-and-faster
 authors: [xiaopeng]
-tags: [UML Diagrams, ZenUML Comparison, PlantUML, Modeling]
+tags: [UML Diagrams, ZenUML Comparison, PlantUML, Modeling, Syntax]
 #image: https://i.imgur.com/mErPwqL.png
 hide_table_of_contents: false
 ---
@@ -11,6 +11,8 @@ hide_table_of_contents: false
 ![](../../static/img/blog/2024/2024-01-01-06.jpeg)
 
 Hi all. I am Peng Xiao. I am the author of [ZenUML](https://zenuml.com/) – a [textual UML tool](https://modeling-languages.com/uml-tools/#textual) that takes markup text (DSL) and converts it into sequence diagrams. It is an honor for me to showcase the product here. If you would like to integrate it into your applications, please see the end.
+
+<!-- truncate -->
 
 ![](../../static/img/blog/2024/2024-01-01-01.png)
 
