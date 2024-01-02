@@ -66,7 +66,7 @@ const config: Config = {
           remarkPlugins: [ZenUMLPlugin],
         },
         // remove false to enable blog
-        blog: false && {
+        blog: {
           showReadingTime: true,
           editUrl: 'https://github.com/ZenUml/docs',
         },
@@ -116,6 +116,7 @@ const config: Config = {
           position: 'right',
         },
         { to: '/docs', label: 'Docs', position: 'right' },
+        { to: '/blog', label: 'Blog', position: 'right' },
         {
           href: 'https://github.com/ZenUml',
           label: 'GitHub',
@@ -183,6 +184,7 @@ const config: Config = {
         {
           title: 'Community',
           items: [
+            { label: 'Blog', href: '/blog' },
             {
               label: 'Facebook',
               href: 'https://www.facebook.com/zenuml?src=landing',
@@ -197,6 +199,7 @@ const config: Config = {
             },
           ],
         },
+
         {
           title: 'More',
           items: [
