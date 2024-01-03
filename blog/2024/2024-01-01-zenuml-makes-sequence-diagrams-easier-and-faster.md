@@ -16,8 +16,6 @@ Hello friends! Peng Xiao here, and I'm thrilled to share a project that's very c
 
 <!-- truncate -->
 
-![](../../static/img/blog/2024/2024-01-01-01.png)
-
 ## Why I Created ZenUML
 
 So, you might wonder, "Why build another tool when there's [PlantUML](https://modeling-languages.com/interview-plantuml/)?" I've even faced suggestions to [throw in the towel](https://www.reddit.com/r/programming/comments/77d6jg/try_catch_in_sequence_diagram/doky2e3/) on this project. But here's the thing - ZenUML excels in simplicity and readability, especially when dealing with complex nested logic. Let's dive into the nuances of DSL, feedback mechanisms, and outputs to see how ZenUML stands out.
