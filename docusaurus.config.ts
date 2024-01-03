@@ -222,7 +222,7 @@ const config: Config = {
           ],
         },
       ],
-      copyright: `©Copyright 2017 – 2023 P&D Vision Pty Ltd. | support@zenuml.com`,
+      copyright: `©Copyright 2017 – 2024 P&D Vision Pty Ltd. | support@zenuml.com`,
     },
     prism: {
       theme: prismThemes.github,
