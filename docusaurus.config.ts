@@ -103,6 +103,7 @@ const config: Config = {
         alt: 'ZenUML Logo',
         src: '/img/logo-90x72.png',
       },
+      hideOnScroll: true,
       items: [
         // {
         //   type: 'docSidebar',
