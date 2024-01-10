@@ -3,7 +3,7 @@ sidebar_position: 1
 title: What is a Sequence Diagram in UML?
 #sidebar_label: Quick Start
 #pagination_label: Quick Start
-description: Introduction of ZenUML Desktop Diagraming
+description: Introduction of Sequence Diagram in UML and how it helps in real world.
 keywords:
   - sequence diagram tool
   - sequence diagram guide
