@@ -13,7 +13,7 @@ keywords:
 #slug: /quick-start
 ---
 
-![](../../static/img/docs/tutorials/01-seq-diagram-intro.jpeg)
+![UML sequence diagram intro](../../static/img/docs/tutorials/01-seq-diagram-intro.jpeg)
 
 # What is a Sequence Diagram in UML?
 
