@@ -14,6 +14,8 @@ keywords:
 #slug: /quick-start
 ---
 
+![UML sequence diagram elements](../../static/img/docs/tutorials/02-elements.jpeg)
+
 # From Timing to Interaction: An In-Depth Look at Sequence Diagram Elements
 
 Welcome back to our series on Unified Modeling Language (UML) where we demystify diagrams one step at a time. Today, we're zooming into the world of sequence diagrams, the dynamic storyboard of object interactions. Sequence diagrams are all about timing and interaction – the very heartbeat of software behavior!
