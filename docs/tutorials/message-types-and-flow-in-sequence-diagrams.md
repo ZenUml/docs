@@ -58,6 +58,15 @@ FireWeb -> LaraSite.save(token, diagram) {
 }
 ```
 
+### Create Messages
+
+In the realm of sequence diagrams, a Create Message is a special kind of communication that signals the creation of a new instance of an object. It's the moment an object is brought to life within the context of the interaction being modeled. Visually, you'll recognize a Create Message by a dashed line with an open arrowhead pointing to a lifeline that springs into existence upon receipt of the message.
+
+```zenuml title=Create Object C
+A->B: Async message
+new C
+```
+
 ## The Importance of Message Ordering
 
 Getting the order of messages right is crucial in sequence diagrams. It's the difference between a flawless dance routine and stepping on your dance partner's toes. To maintain this choreography, sequence diagrams are read from top to bottom. The vertical position of each message indicates the order in which they are sent.
