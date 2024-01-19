@@ -34,13 +34,25 @@ The guard condition is a boolean expression that shows when the branch should be
 
 In ZenUML, you can create conditional interactions using exact same way you do in your program languages.
 
-```zenuml title=condition
+```zenuml title=condition if
 if (x) {
   A.m1()
 } else if (y) {
   A.m2()
 } else {
   A.m3()
+}
+```
+
+And yes, we have try/catch/finally to make it even more programming like.
+
+```zenuml title=try/catch/finally
+try { A -> B}
+catch (e){
+    new Error
+}
+finally {
+    A.close()
 }
 ```
 
@@ -73,9 +85,21 @@ loop("Every minute") {
 ### Other Useful Fragments
 
 - The `opt` fragment is perfect for optional behavior that happens only if a certain condition is true (think of it as an if without an else).
+- The `par` fragment is used to represent parallel processing activities. When you have two or more processes that can occur independently and simultaneously, you would use the par fragment to denote that these processes are concurrent.
 - The `break` fragment allows you to show a premature exit from a loop or sequence based on a condition.
 
-At this moment, ZenUML does not support opt or break. Let us know if you want to requesting this.
+```zenuml title=opt and par
+opt {
+  A.method
+}
+
+par {
+  A.method1
+  B.method2
+}
+```
+
+At this moment, ZenUML does not support `break`. Let us know if you want to request this.
 
 ### Conclusion
 
