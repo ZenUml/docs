@@ -231,7 +231,7 @@ const config: Config = {
     },
     announcementBar: {
       id: 'announcementBar',
-      content: `🎄 This Christmas, unwrap the joy of savings with our special holiday offer: get our premium Mac application for just $4.99 at <a target="_blank" href="https://apps.apple.com/us/app/sequence-diagram-tool-zenuml/id1602636196?mt=12?mt=12">Mac App Store</a>, a festive reduction from the regular price of $29.99!. 🎉️ 🥳️`,
+      content: `🌟 We Want Your Feedback! 🌟 Help shape the future of ZenUML by participating in our <a href="https://tally.so/r/woGxpX">3 Mins Feature Planning Survey</a>. Your insights are invaluable and will guide us in creating an even better experience for you.`,
     },
   } satisfies Preset.ThemeConfig,
 };
