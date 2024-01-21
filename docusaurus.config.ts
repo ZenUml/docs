@@ -231,7 +231,8 @@ const config: Config = {
     },
     announcementBar: {
       id: 'announcementBar',
-      content: `🌟 We Want Your Feedback! 🌟 Help shape the future of ZenUML by participating in our <a href="https://tally.so/r/woGxpX">3 Mins Feature Planning Survey</a>. Your insights are invaluable and will guide us in creating an even better experience for you.`,
+      content: `🌟 We Want Your Feedback! 🌟 Help shape the future of ZenUML by participating in our <a href="https://tally.so/r/woGxpX">3 Mins Feature Planning Survey</a>.`,
+      isCloseable: false,
     },
   } satisfies Preset.ThemeConfig,
 };
