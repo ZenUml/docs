@@ -232,7 +232,7 @@ const config: Config = {
     announcementBar: {
       id: 'announcementBar-1', // Increment on change
       content: `🌟 We Want Your Feedback! 🌟 Help shape the future of ZenUML by participating in our <a href="https://tally.so/r/woGxpX">3 Mins Feature Planning Survey</a>.`,
-      isCloseable: true,
+      isCloseable: false,
     },
   } satisfies Preset.ThemeConfig,
 };
