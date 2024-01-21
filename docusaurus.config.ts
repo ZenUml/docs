@@ -230,9 +230,9 @@ const config: Config = {
       darkTheme: prismThemes.dracula,
     },
     announcementBar: {
-      id: 'announcementBar',
+      id: 'announcementBar-1', // Increment on change
       content: `🌟 We Want Your Feedback! 🌟 Help shape the future of ZenUML by participating in our <a href="https://tally.so/r/woGxpX">3 Mins Feature Planning Survey</a>.`,
-      isCloseable: false,
+      isCloseable: true,
     },
   } satisfies Preset.ThemeConfig,
 };
