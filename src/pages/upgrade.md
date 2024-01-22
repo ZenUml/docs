@@ -20,7 +20,7 @@ Transitioning from our Lite (free) version to our Freemium version is more than 
 
 - **PDF Exports, Unbranded**: No upgrade instructions on your PDF exports.
 - **Priority Support**: Jump to the front of the queue with our dedicated support team, ready to assist you when you need it most.
-- **Premium Features on the way**: You'll be the first to enjoy the latest features we roll out. Stay ahead of the curve and continuously enhance your experience with our innovative updates including AI integration and beautifully designed presets.
+- **Premium Features on the way**: You'll be the first to enjoy the latest features we roll out. Stay ahead of the curve and continuously enhance your experience with our innovative updates including AI integration and beautifully designed presets. Find out more on our [Roadmap](https://zenuml.com/roadmap).
 
 ### **Frequently Asked Questions (FAQs)**
 
