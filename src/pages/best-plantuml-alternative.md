@@ -1,7 +1,15 @@
 ---
 title: Best PlantUML Alternatives & Competitors | ZenUML
-description: 'Best PlantUML Alternatives & Competitors | ZenUML'
-keywords: [alternative, PlantUML, ZenUML, Competitors, diagram tool]
+description: 'Tired of PlantUMLs limitations? This article reviews 5 top PlantUML alternatives for creating diagrams easily without code. We compare features of tools like Diagram.net, Draw.io, Lucidchart, Cacoo and Gliffy to help you choose the best PlantUML replacement.'
+keywords:
+  [
+    plantuml alternatives,
+    plantuml replacement,
+    diagram software,
+    uml tool,
+    diagramming software,
+    sequence diagram online,
+  ]
 unlisted: false
 ---
 
