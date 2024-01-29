@@ -21,6 +21,8 @@ hide_table_of_contents: false
 
 In a world where technology is rapidly evolving, the ability to quickly and accurately visualize complex systems is more crucial than ever. Diagrams have long been the go-to tool for representing structures, workflows, and systems. However, traditional diagramming methods often fall short in an environment that demands agility and precision. Enter the concept of 'Diagram as Code'—a methodology where diagrams are generated from textual descriptions, merging the clarity of visual representation with the power of code. Here's why this approach is a game-changer.
 
+<!-- truncate -->
+
 ## 1. The Psychological Edge of Code-Generated Diagrams
 
 When we consider [Scott Young's Two-Flow Theory](https://www.scotthyoung.com/blog/2008/01/07/how-to-fuel-a-creative-flow/) in the context of diagramming, we uncover a compelling argument for Diagram as Code. The theory posits that most creative tasks require two distinct phases: generating raw ideas (creative fodder) and then refining those ideas into a useful product. Diagramming traditionally struggles with this bifurcation; it's all too easy to become bogged down trying to perfect a diagram from the outset, leading to creative blocks.
