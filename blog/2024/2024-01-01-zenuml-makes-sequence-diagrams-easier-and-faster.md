@@ -1,9 +1,16 @@
 ---
 title: 'Journey with ZenUML: Crafting Intuitive Sequence Diagrams'
-description: What is ZENUML's advantage on creating UML diagrams from decent codes, compare with PlantUML
+description: Wondering how ZENUML compares to PlantUML for generating UML diagrams programmatically? This article analyzes ZENUML and PlantUML's features for creating diagrams from code like Java, C++ and more. We examine capabilities for class, sequence, activity diagrams and more to help you determine the best UML diagramming tool.
 slug: zenuml-makes-sequence-diagrams-easier-and-faster
 authors: [xiaopeng]
-tags: [UML Diagrams, ZenUML Comparison, PlantUML, Modeling, Syntax]
+tags:
+  [
+    zenuml plantuml comparison,
+    sequence diagram maker,
+    online uml tool,
+    sequence diagram tool,
+    generate uml diagrams from code,
+  ]
 #image: https://i.imgur.com/mErPwqL.png
 hide_table_of_contents: false
 ---
