@@ -37,6 +37,8 @@ hide_table_of_contents: false
 
 Business process modeling (BPM) is an analytical approach that helps organizations to visualize their processes in a structured way. By creating a detailed map of business activities, companies can gain insights into the workflow and identify areas for improvement. BPM is crucial for achieving efficiency, clarity, and continuous development within a company's operations.
 
+<!-- truncate -->
+
 ### Introduction to Sequence Diagrams
 
 Among the various tools and techniques used in BPM, sequence diagrams are particularly powerful. A sequence diagram is a type of interaction diagram that shows how processes operate with one another and in what order. It is a construct of UML (Unified Modeling Language) used for modeling the dynamics within various systems.
