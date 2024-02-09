@@ -39,6 +39,8 @@ The initial phase in utilizing sequence diagrams is to capture the **current sta
 
 ## In-Depth Analysis of the Process to Uncover Improvement Opportunities
 
+![Swim lane of business process modeling](https://cdn.sa.net/2024/02/09/FAsChO9oW1KtTrp.png)
+
 Once the as-is sequence diagram is in hand, it's time for a critical evaluation. Key questions to ponder include: Are there **repetitive** tasks that add no value? Are transitions between departments causing **lags**? Does the process still **mirror the business's strategic objectives**, or has it become misaligned? Sharing the diagram with process stakeholders and seeking their **input** is crucial. Pairing their insights with performance metrics, such as **cycle times**, will spotlight the most problematic areas or steps that do not contribute value.
 
 ## Ideation and Strategic Planning for Process Refinements
@@ -50,6 +52,8 @@ Moving forward, it's time to **brainstorm** potential modifications to **simplif
 When it's time to execute the changes, it's advisable to approach this **incrementally** to **reduce operational disruption**. Prioritize changes with the potential for the **greatest impact**, based on the earlier analysis. Start by **testing the changes on a small scale** before a widespread implementation. Vigilantly **monitor key performance indicators** to verify that the alterations are yielding the intended benefits. Refine the changes as necessary, drawing on insights gained from the pilot phase before proceeding with the full-scale execution.
 
 ## Upholding a Culture of Persistent Process Improvement
+
+![Persistent Process Improvement](https://cdn.sa.net/2024/02/09/wthNGsAjBDkOfbz.png)
 
 Following the implementation, draft a new **as-is sequence diagram** that reflects the improved process. This serves as a means to **chart progress** and is a testament to the ongoing nature of process improvement. Since business needs are continually evolving, this updated diagram sets the stage for future cycles of refinement. It's beneficial to institutionalize the use of sequence diagrams and regular analysis as a **standard practice** within the organization to ensure that processes remain in tight alignment with **business objectives**.
 
