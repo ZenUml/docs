@@ -32,6 +32,8 @@ hide_table_of_contents: false
 
 A **sequence diagram** uses simple graphic notation to depict interactions between different entities over time. At a high level, it shows the **sequence of messages** or events that pass between various objects in order to carry out a specific task or business process. This makes sequence diagrams extremely effective for **visualizing business processes** in a clear, unambiguous way.
 
+<!-- truncate -->
+
 ## Breaking Down a Process with a Sequence Diagram
 
 To demonstrate, let's walk through an example **customer order fulfillment process**. We'll break it down step-by-step using a sequence diagram to untangle the interactions:

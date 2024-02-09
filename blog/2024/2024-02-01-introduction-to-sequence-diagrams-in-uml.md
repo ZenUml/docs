@@ -33,6 +33,8 @@ Within the UML suite of diagrams, sequence diagrams are particularly useful for 
 
 In this article, we will cover the basic concepts and definitions around UML sequence diagrams. We will explore what sequence diagrams are, what they are used for, and their key components. Our goal is to provide a high-level overview of sequence diagrams for those new to UML. We will not go in-depth into how to actually create sequence diagrams or use specialized sequence diagram software. By the end, readers should understand the purpose and utility of sequence diagrams in the software design process.
 
+<!-- truncate -->
+
 ## What is a Sequence Diagram in UML?
 
 A sequence diagram is a type of interaction diagram in the Unified Modeling Language (UML) used to model the flow of logic within a system in a visual manner. Sequence diagrams specifically depict the chronological order of interactions between various objects in a system.
