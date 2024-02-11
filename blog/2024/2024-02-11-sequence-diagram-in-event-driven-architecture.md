@@ -1,5 +1,5 @@
 ---
-title: 'Business Workflow Analysis with Sequence Diagrams'
+title: 'Sequence Diagrams for Event-Driven Architectures'
 description: Explore the role of sequence diagrams in event-driven architectures to visualize system interactions, identify dependencies, and validate design for better scalability and flexibility. Ideal for developers and architects in IoT, microservices, and real-time systems.
 authors: [xiaowenz]
 tags:
