@@ -105,8 +105,6 @@ A4: Yes, there are several tools available, such as Lucidchart, Visual Paradigm,
 
 A5: Yes, sequence diagrams can be used as a basis for **system testing**, as they provide a visual representation of the expected interactions between components. They can help in identifying potential issues and validating the correctness of the system's behavior.
 
-**Keywords:** sequence diagrams, software development, interactions, components, flow of execution, actors, naming conventions, messages, lifelines, activation boxes, annotations, comments, readability, system testing.
-
 ---
 
 > Try ZenUML now!
