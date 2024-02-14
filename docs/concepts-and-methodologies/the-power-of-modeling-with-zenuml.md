@@ -45,6 +45,19 @@ System -> User: Return Data
 
 This shows the flow of information between User and System.
 
+```zenuml title=RESTFul Service
+// This is a model for the flow of a RESTFul Service
+@Starter(Client)
+// The client calls the `GetBook` API on the controller
+BookController.GetBook(id) {
+  // The controller in turn then calls the `Find` API on
+  // BookService
+  BookService.Find(id)
+}
+```
+
+This shows the interactions between client and service.
+
 - ZenUML can **automatically generate diagrams** from such code, ensuring **consistency** between model and visualization.
 
 ## Benefits of Using ZenUML
