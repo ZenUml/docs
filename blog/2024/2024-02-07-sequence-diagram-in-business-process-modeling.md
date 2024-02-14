@@ -61,4 +61,8 @@ Some key advantages of using sequence diagrams for **business process modeling**
 
 While other diagramming techniques have their place, sequence diagrams excel at concisely yet comprehensively depicting **business process interactions**. Their clarity, communication benefits, and troubleshooting advantages make them a powerful modeling tool that should be in every business analyst's toolkit. So don't overlook sequence diagrams when mapping out your organization's key process flows.
 
+---
+
+> Find our more on [The Ultimate Guide to Business Process Modeling](/docs/concepts-and-methodologies/business-process-modelling-guide)
+
 > Zenuml detailed feature roadmap available [here](/roadmap).

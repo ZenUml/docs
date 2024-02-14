@@ -61,4 +61,8 @@ Following the implementation, draft a new **as-is sequence diagram** that reflec
 
 In essence, sequence diagrams offer a **methodical yet straightforward approach** to **depicting business processes** from multiple angles. Their illustrative nature is adept at revealing **inefficiencies** that might otherwise go unnoticed. By documenting the current state and envisioned future state, sequence diagrams become vital for **strategic planning**, **experimental testing**, and **ongoing monitoring** of process improvements. When applied consistently, they are instrumental in keeping business workflows in sync, thereby fostering **long-term business success** through perpetual enhancement.
 
+---
+
+> Find our more on [The Ultimate Guide to Business Process Modeling](/docs/concepts-and-methodologies/business-process-modelling-guide)
+
 > Zenuml detailed feature roadmap available [here](/roadmap).
