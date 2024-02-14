@@ -117,4 +117,6 @@ Businesses are encouraged to adopt sequence diagrams to enhance their process mo
 
 As businesses continue to evolve and seek out efficient ways to represent and improve their processes, sequence diagrams will undoubtedly play a pivotal role. Their ability to clearly convey complex interactions makes them an indispensable tool for the future of business process modeling.
 
+> Find our more on [The Ultimate Guide to Business Process Modeling](/docs/concepts-and-methodologies/business-process-modelling-guide)
+
 > Zenuml detailed feature roadmap available [here](/roadmap).
