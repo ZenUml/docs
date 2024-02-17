@@ -21,6 +21,8 @@ hide_table_of_contents: false
 
 The new product launch approval process involves four participants with different business roles: the Product Manager, the Marketing Manager, the Finance Manager, and the Legal Counsel. The goal of this process is to ensure that a new product is thoroughly vetted and approved before it is launched in the market.
 
+<!-- truncate -->
+
 ![Business Process Example Sequence Diagram](https://cdn.sa.net/2024/02/17/NPQSWG6p3ZUuqcb.png)
 
 ## The Challenge: Lengthy Approval Processes
