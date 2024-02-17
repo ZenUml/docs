@@ -23,6 +23,8 @@ hide_table_of_contents: false
 
 Business Process Reengineering, also known as **BPR**, is a management approach that focuses on the complete redesign and overhaul of existing business processes. It involves a **fundamental rethinking** of how work is done, with the goal of achieving substantial improvements in performance, efficiency, and customer satisfaction.
 
+<!-- truncate -->
+
 Unlike incremental improvement, which involves making small, gradual changes to existing processes, **BPR takes a more holistic and radical approach**. It challenges the status quo and encourages organizations to question every aspect of their operations, from workflows and technologies to organizational structures and cultural norms.
 
 ## When is Business Process Reengineering Necessary?
