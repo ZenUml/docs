@@ -5,10 +5,13 @@ title: ZenUML Diagrams For Confluence
 #pagination_label: Quick Start
 description: Introduction of ZenUML Diagrams For Confluence
 keywords:
-  - atlassian confluence marketplace
-  - confluence apps uml
-  - uml diagram tool
-  - zenuml
+  - Confluence diagramming tool
+  - Atlassian Marketplace ZenUML
+  - Confluence diagram plugin
+  - UML diagram Confluence integration
+  - Mermaid diagrams plugin for Confluence
+  - Confluence UML diagram macro
+  - Software development diagramming Confluence
 #slug: /quick-start
 ---
 
