@@ -25,7 +25,7 @@ If you want to keep all the old diagrams(macros) working as they are now, you wi
 
 2. [Submit Support Ticket](https://zenuml.atlassian.net/servicedesk) for requesting migration, we will enable the migration feature on your Lite version.
 
-3. Login as your adminstrator. The account performs the migration need to have edit permission to all the zenuml macros you want to migrate in your site.
+3. Login as your adminstrator. The account performs the migration need to have edit permission on all the pages that have macros you want to migrate.
 4. Click the ZenUML Lite app in the left panel
 
 ![zen-img-pct-small](../../static/img/pages/upgrade-lite-button.png)
