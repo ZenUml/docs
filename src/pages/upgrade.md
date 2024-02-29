@@ -13,8 +13,7 @@ Transitioning from our Lite (free) version to our Freemium version is more than 
 
 ### **How to Upgrade**
 
-1. **Navigate to the Marketplace**: [ZenUML Diagrams for Confluence(FREEMIUM)](https://marketplace.atlassian.com/apps/1218380/zenuml-diagrams-for-confluence-freemium?tab=overview&hosting=cloud)
-2. **Opt for 'Try for Free'**: Test the waters with our Freemium version at no cost.
+> Find our upgrade instruction manual here >> [Migrate your macros from ZenUML Confluence Lite version to Freemium(Full) version](/confluence-migration-instructions)
 
 ### **Discover the Benefits**
 
