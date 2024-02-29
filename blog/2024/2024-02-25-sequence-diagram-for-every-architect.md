@@ -20,6 +20,8 @@ hide_table_of_contents: false
 
 As a software architect, visualizing and documenting system interactions is a critical task. **Sequence diagrams** provide a simple yet powerful way to achieve this. In this article, we will examine why sequence diagrams are indispensable for architects and provide tips to create effective diagrams.
 
+<!-- truncate -->
+
 ## The Crucial Role of Software Architects
 
 The architect plays a pivotal role in the software development life cycle. Their key responsibilities include:
