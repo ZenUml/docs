@@ -17,9 +17,11 @@ ZenUML Team appreciates your decision of upgrading from our Lite version to Full
 
 ## **Why you need to migrate?**
 
-All the diagrams in your confluence pages created from ZenUML Confluence Lite Version, can not be processed by new installed Full version. The data can not be processed cross different plugins unless the owner of the data(in this case, your organization) apply changes to transmit(we provided migration feature for you to easily do so).
+All diagrams created in your Confluence pages using ZenUML Confluence Lite Version cannot be accessed through different plugins, including our Full Version.
 
-If you want to keep all the old diagrams(macros) working as they are now, you will need follow below instructions to migrate the data.
+The owner of the data (in this case, your organization) must transfer the data (we provide a migration feature to facilitate this process).
+
+If you wish to maintain the functionality of all the old diagrams (macros), follow the instructions below to migrate the data.
 
 > **You only need to do it once and we will support you during the process**.
 
