@@ -9,6 +9,10 @@ unlisted: false
 
 ## Thank you! We appreciate your choice.
 
+**Your data will remain intact.**
+
+All your diagrams, graphs, and API documents will persist throughout the migration. Even if you accidentally uninstall our application, your data will stay within your Confluence instance, allowing you to regain access simply by reinstalling our application.
+
 ZenUML Team appreciates your decision of upgrading from our Lite version to Full version. Here's the [Roadmap](https://zenuml.com/roadmap) of our full version product, the new features will be coming soon.
 
 ## **Why you need to migrate?**
