@@ -1,5 +1,5 @@
 ---
-title: "The Architect's Superpower: Mastering Sequence Diagrams for Software Design"
+title: 'The Significance of Sequence Diagrams in System Design: A Comprehensive Overview'
 description: Explore the significance of sequence diagrams in system design, their key elements, and how they enhance visualization, communication, testing, and documentation. Learn about their role in identifying design flaws and their compatibility with various development methodologies.
 authors: [xiaowenz]
 tags:
