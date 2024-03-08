@@ -1,5 +1,5 @@
 ---
-title: "The Architect's Superpower: Mastering Sequence Diagrams for Software Design"
+title: 'Sequence Diagrams: A Must-Have Tool for Software Architects'
 description: Sequence diagrams are indispensable modeling tools for software architects to visualize complex system interactions, communicate designs effectively, guide development teams, and document architecture decisions. This article examines why sequence diagrams are a must-have technique and provides tips to create clear, impactful diagrams.
 authors: [xiaowenz]
 tags:
