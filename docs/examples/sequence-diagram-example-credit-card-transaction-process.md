@@ -51,7 +51,7 @@ Throughout this process, security measures such as encryption, tokenization, and
 
 The above diagram is generated from the following code:
 
-```zenuml title:The Journey of a Credit Card Transaction
+```zenuml title=The Journey of a Credit Card Transaction
 @Cardholder "Cardholder"
 @POS "POS"
 @AcquiringBank "AcquiringBank"

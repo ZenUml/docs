@@ -55,7 +55,7 @@ The optional steps indicate actions that may be skipped depending on whether pre
 
 The above diagram is generated from the following code:
 
-```zenuml title:DNS Resolution Process
+```zenuml title=DNS Resolution Process
 // Define participants
 @Client "Stub Resolver"
 @Cache "Local DNS Cache"
