@@ -1,5 +1,5 @@
 ---
-title: 'Mastering Domain-Driven Design with Sequence Diagrams: A Powerful Combination for Software Excellence'
+title: 'Sequence Diagrams for Modeling Blockchain Transactions'
 description: Discover the power of sequence diagrams in modeling blockchain transactions. This blog post explores the importance of sequence diagrams in enhancing understanding, facilitating communication, and identifying potential issues in blockchain-based systems. Learn how to leverage the ZenUML sequence diagram tool to visualize the complex processes involved in cryptocurrency transactions, from initiation to finalization.
 authors: [xiaowenz]
 tags:
