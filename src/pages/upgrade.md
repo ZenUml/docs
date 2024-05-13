@@ -7,6 +7,12 @@ unlisted: false
 
 ![](../../static/img/pages/upgrade-og.jpeg)
 
+> ZenUML will apply a **limitation on total number of macros** a free tier client can **create or modify**. This limitation will be rolled out on **March 1st, 2025** and will impact both **Lite version** and **Free Tier on Freemium Version**. To avoid interruption of the service, we suggest migrating to our Paid version, and our support team will assist to make sure the process is smooth.
+>
+> You can either upgrade from the Atlassian marketplace and make payment via Atlassian or Pay us directly.
+>
+> Reach us via [support portal](https://zenuml.atlassian.net/servicedesk/customer/portals) .
+
 ## Ready for an Upgrade? Your Freemium Journey Begins Here!
 
 Transitioning from our Lite (free) version to our Freemium version is more than just an upgrade; it's a step towards optimizing your workflow and enjoying a seamless experience. Here's how to make the switch effortlessly:
