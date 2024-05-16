@@ -75,7 +75,7 @@ This sequence diagram shows how the rate limiter checks the number of requests m
 
 As APIs evolve over time, versioning becomes an important aspect of API management. A sequence diagram can help visualize the process of handling different API versions.
 
-![API Versioning in Sequence Diagram](https://cdn.sa.net/2024/05/16/UOdTKXcr9n3SFsP.png)
+![API Versioning in Sequence Diagram](https://cdn.sa.net/2024/05/16/rsgvc7WhLSm4Qiz.png)
 
 This sequence diagram demonstrates how the API router determines the version of the API and forwards the request to the appropriate API version, allowing the API to evolve while maintaining backwards compatibility.
 
