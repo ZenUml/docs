@@ -25,6 +25,8 @@ In the world of business process modeling, the traditional go-to technique has b
 
 This blog post will explore practical examples of how sequence diagrams can be used to effectively model business processes, replacing the traditional BPMN approach. We will delve into the benefits of sequence diagrams, their versatility, and how they can be seamlessly integrated into your business process management strategies.
 
+<!-- truncate -->
+
 ## Understanding Sequence Diagrams
 
 Sequence diagrams are a type of Unified Modeling Language (UML) diagram that focuses on the interactions between different entities or objects within a system. These diagrams are particularly useful for visualizing the flow of messages and the order in which they are exchanged, making them a natural fit for representing business processes.
