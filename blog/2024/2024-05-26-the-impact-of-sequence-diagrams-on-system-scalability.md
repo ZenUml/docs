@@ -1,14 +1,14 @@
 ---
 title: 'Unveiling the Secrets of Scalable Software: The Transformative Power of Sequence Diagrams'
-description: 'Discover how sequence diagrams can transform your software system's scalability. Explore the role of sequence diagrams in communication, complexity management, performance optimization, and scalability testing. Learn how to unlock the power of sequence diagrams for building high-performing, scalable systems.'
+description: 'Discover how sequence diagrams can transform your software system scalability. Explore the role of sequence diagrams in communication, complexity management, performance optimization, and scalability testing. Learn how to unlock the power of sequence diagrams for building high-performing, scalable systems.'
 authors: [xiaowenz]
 tags:
-- Sequence Diagrams
-- System Scalability
-- Software Architecture
-- Performance Optimization
-- Complexity Management
-- Scalability Testing
+  - Sequence Diagrams
+  - System Scalability
+  - Software Architecture
+  - Performance Optimization
+  - Complexity Management
+  - Scalability Testing
 hide_table_of_contents: false
 ---
 
