@@ -1,5 +1,5 @@
 ---
-title: 'Unveiling the Secrets of Scalable Software: The Transformative Power of Sequence Diagrams'
+title: 'Streamlining Policy Underwriting: Optimizing Business Processes with Sequence Diagrams'
 description: 'Discover how to streamline your policy underwriting process and enhance efficiency with the power of business process modeling and sequence diagrams. Unlock cost savings, improve customer experience, and drive sustainable growth for your insurance organization.'
 authors: [xiaowenz]
 tags:
