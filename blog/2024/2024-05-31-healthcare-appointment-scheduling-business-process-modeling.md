@@ -1,14 +1,14 @@
 ---
 title: 'Streamlining Healthcare Appointment Scheduling with Business Process Modeling'
-description: 'Discover how business process modeling can revolutionize healthcare appointment scheduling, leading to increased efficiency, enhanced patient experience, and data-driven decision-making. Explore practical examples and visual sequence diagrams to optimize your healthcare organization's scheduling workflows.'
+description: 'Discover how business process modeling can revolutionize healthcare appointment scheduling, leading to increased efficiency, enhanced patient experience, and data-driven decision-making. Explore practical examples and visual sequence diagrams to optimize your healthcare organization scheduling workflows.'
 authors: [xiaowenz]
 tags:
-- Business process modeling
-- Healthcare appointment scheduling
-- Workflow optimization
-- Patient experience
-- Data-driven decision making
-- Sequence diagram
+  - Business process modeling
+  - Healthcare appointment scheduling
+  - Workflow optimization
+  - Patient experience
+  - Data-driven decision making
+  - Sequence diagram
 hide_table_of_contents: false
 ---
 
