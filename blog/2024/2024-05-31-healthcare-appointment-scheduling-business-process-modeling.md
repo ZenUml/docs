@@ -20,6 +20,8 @@ Healthcare appointment scheduling is a critical component of patient care, ensur
 
 In this blog post, we will explore how business process modeling can be leveraged to enhance the healthcare appointment scheduling experience. We'll delve into the key benefits of BPM, discuss practical examples, and even showcase a sequence diagram using ZenUML to illustrate the process. By the end of this article, you'll have a deeper understanding of how BPM can transform the way healthcare organizations manage their appointment scheduling workflows.
 
+<!-- truncate -->
+
 ## The Importance of Business Process Modeling in Healthcare Appointment Scheduling
 
 Business process modeling (BPM) is a methodical approach to analyzing, visualizing, and optimizing the workflows and procedures that underpin an organization's operations. In the context of healthcare appointment scheduling, BPM can play a crucial role in improving the overall efficiency and patient satisfaction.
