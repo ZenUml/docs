@@ -1,5 +1,5 @@
 ---
-title: 'Streamlining Healthcare Appointment Scheduling with Business Process Modeling'
+title: 'Revolutionizing Fraud Detection: A Business Process Modeling Approach'
 description: 'Discover how business process modeling can revolutionize your fraud detection strategies. Streamline workflows, identify vulnerabilities, and enhance analytics to safeguard your organization from the growing threat of fraud.'
 authors: [xiaowenz]
 tags:
