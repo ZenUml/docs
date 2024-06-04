@@ -54,6 +54,14 @@ const config: Config = {
         },
       };
     },
+    [
+      '@docusaurus/plugin-sitemap',
+      {
+        changefreq: 'daily',
+        priority: 0.5,
+        filename: 'sitemap-all.xml',
+      },
+    ],
   ],
   presets: [
     [
