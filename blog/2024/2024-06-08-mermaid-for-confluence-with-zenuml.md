@@ -24,6 +24,8 @@ In today's collaborative work environments, visual representation of ideas is cr
 
 ZenUML for Confluence is a powerful plugin designed to enhance your Confluence pages with dynamic and interactive diagrams. It primarily utilizes the ZenUML Domain Language to create high-quality sequence diagrams, which are recognized as the best in the field. However, ZenUML doesn't stop there. It also supports Mermaid, offering users a versatile and cost-effective option for their diagramming needs.
 
+<!-- truncate -->
+
 #### Why Choose Mermaid for Confluence?
 
 Mermaid is a popular diagramming and charting tool that allows users to create complex diagrams with simple Markdown-like syntax. Here's why integrating Mermaid with Confluence through ZenUML is a game-changer:
