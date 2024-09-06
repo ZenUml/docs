@@ -44,13 +44,13 @@ function HomepageHeader() {
             </Link>
             <Link
               className={clsx(
-                'button button--secondary button--lg',
+                'button rounded-lg bg-gradient-to-r from-[#DB3D6D] to-[#C234E5] px-8 py-3.5 text-[16px] font-bold text-white shadow-[0_0_40px_0_#DA3D774A]',
                 styles.button,
               )}
-              href="/docs"
+              href="https://diagramly.ai/?src=zenuml"
               id="btn_secondary_read_docs"
             >
-              Docs
+              Diagramly.Ai
             </Link>
           </div>
         </div>
