@@ -9,6 +9,8 @@ unlisted: false
 
 > ZenUML will apply a **limitation on total number of macros** a free tier client can **create or modify**. This limitation will be rolled out on **March 1st, 2025** and will impact both **Lite version** and **Free Tier on Freemium Version**. To avoid interruption of the service, we suggest migrating to our Paid version, and our support team will assist to make sure the process is smooth.
 >
+> ❗️Limitation: The maximum number of Diagrams permitted per Space is limited to 100. Once this threshold is reached, it will not be possible to add new Diagrams or modify existing ones within that Space.
+>
 > You can either upgrade from the Atlassian marketplace and make payment via Atlassian or Pay us directly.
 >
 > Reach us via [support portal](https://zenuml.atlassian.net/servicedesk/customer/portals) .
