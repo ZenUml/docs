@@ -46,9 +46,9 @@ if (x) {
 
 And yes, we have try/catch/finally to make it even more programming like.
 
-```zenuml title=try/catch/finally
+```zenuml title=try catch finally
 try { A -> B}
-catch (e){
+catch {
     new Error
 }
 finally {
