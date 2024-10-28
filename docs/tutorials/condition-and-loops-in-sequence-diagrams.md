@@ -47,11 +47,11 @@ if (x) {
 And yes, we have try/catch/finally to make it even more programming like.
 
 ```zenuml title=try catch finally
-try { A -> B}
-catch {
-    new Error
-}
-finally {
+try {
+  A -> B.DoSomething()
+} catch (Exception e) {
+    new Error(e)
+} finally {
     A.close()
 }
 ```
