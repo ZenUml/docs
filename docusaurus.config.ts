@@ -78,6 +78,7 @@ const config: Config = {
         blog: {
           showReadingTime: true,
           editUrl: 'https://github.com/ZenUml/docs',
+          remarkPlugins: [ZenUMLPlugin],
         },
         theme: {
           customCss: './src/css/custom.css',
