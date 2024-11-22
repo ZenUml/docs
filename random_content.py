@@ -238,7 +238,7 @@ def process_date_range(start_date, end_date):
     current_date = start_date
     while current_date <= end_date:
         print(f'Thread {threading.current_thread().name} processing date: {current_date.strftime("%Y-%m-%d")}')
-        for _ in range(3):
+        for _ in range(1):
             process(current_date)
         current_date += timedelta(days=1)
 
@@ -272,8 +272,8 @@ def batch_process_multi_thread(from_date=datetime.now(), to_date=datetime.now(),
 
 
 if __name__ == "__main__":
-    str_from = "2024-11-01"
-    str_to = "2024-11-01"
+    str_from = "2024-08-02"
+    str_to = "2024-08-11"
     from_date=datetime.strptime(str_from, '%Y-%m-%d')
     to_date=datetime.strptime(str_to, '%Y-%m-%d')
 
