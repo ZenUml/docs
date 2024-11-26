@@ -31,7 +31,7 @@ Need help with the transition? Our support team is ready to assist via our [supp
 
 ### Pro Plan
 
-- **$299/year per space**
+- **<s>\$299/year per space</s>** Lock in at **$199/year per space** before 31st Dec, 2024
 - 101 - 1,000 macros per space
 - Unlimited users
 - All premium features included
@@ -39,7 +39,7 @@ Need help with the transition? Our support team is ready to assist via our [supp
 
 ### Enterprise Plan
 
-- **$999/year per space**
+- **<del>\$999/year per space</del>** Lock in at **$499/year per space** before 31st Dec, 2024
 - 1,001+ macros per space
 - Unlimited users
 - All premium features included
