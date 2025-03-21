@@ -58,7 +58,7 @@ const config: Config = {
       '@docusaurus/plugin-sitemap',
       {
         id: 'sitemap2',
-        changefreq: 'daily',
+        changefreq: 'daily' as 'daily' | 'weekly' | 'monthly' | 'yearly',
         priority: 0.5,
         filename: 'sitemap-all.xml',
       },
@@ -84,7 +84,6 @@ const config: Config = {
           customCss: './src/css/custom.css',
         },
         sitemap: {
-          changefreq: 'daily',
           priority: 0.5,
           ignorePatterns: ['/tags/**'],
           filename: 'sitemap.xml',
@@ -233,16 +232,12 @@ const config: Config = {
           ],
         },
       ],
-      copyright: `©Copyright 2017 – 2024 P&D Vision Pty Ltd. | support@zenuml.com`,
+      copyright:
+        'Copyright 2017 – 2025 P&D Vision Pty Ltd. | support@zenuml.com',
     },
     prism: {
       theme: prismThemes.github,
       darkTheme: prismThemes.dracula,
-    },
-    announcementBar: {
-      id: 'announcementBar-1', // Increment on change
-      content: `🌟 We Want Your Feedback! 🌟 Help shape the future of ZenUML by participating in our <a href="https://tally.so/r/woGxpX">3 Mins Feature Planning Survey</a>.`,
-      isCloseable: false,
     },
   } satisfies Preset.ThemeConfig,
 };
