@@ -27,7 +27,7 @@ const HomepageClient: FC = () => {
       <div className={styles.heading}>
         <h2 className={styles.title}>Trusted By Global Clients</h2>
         <p className={styles.subtitle}>
-          Powering sequence diagrams at leading organizations worldwide
+          Powering diagrams at leading organizations worldwide
         </p>
       </div>
 
