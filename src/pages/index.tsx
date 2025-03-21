@@ -1,4 +1,3 @@
-import clsx from 'clsx';
 import Link from '@docusaurus/Link';
 import Layout from '@theme/Layout';
 import Heading from '@theme/Heading';
@@ -20,47 +19,54 @@ import HomePageFAQ from '@site/src/components/HomePageFAQ';
 
 function HomepageHeader() {
   return (
-    <header className={clsx('hero hero--primary', styles.heroBanner)}>
-      <div className={styles.container}>
-        <div className={styles.left}>
-          <Heading as="h1" className={clsx('hero__title', styles.title)}>
-            Create diagrams faster and better
-          </Heading>
-          <p className={clsx('hero__subtitle', styles.subtitle)}>
-            ZenUML is a multi-platform diagram-as-code solution for sequence
-            diagrams, flow chart* and more
-          </p>
-          <div className={styles.buttons}>
-            <Link
-              className={clsx(
-                'button button--primary button--lg',
-                styles.button,
-                styles.getStarted,
-              )}
-              href="https://app.zenuml.com/?cta=main"
-              id="btn_main_get_started"
-            >
-              Get Started
-            </Link>
-            <Link
-              className={clsx(
-                'button rounded-lg bg-gradient-to-r from-[#DB3D6D] to-[#C234E5] px-8 py-3.5 text-[16px] font-bold text-white shadow-[0_0_40px_0_#DA3D774A]',
-                styles.button,
-              )}
-              href="https://diagramly.ai/?src=zenuml"
-              id="btn_secondary_read_docs"
-            >
-              Diagramly.Ai
-            </Link>
+    <header className={styles.heroSection}>
+      <div className={styles.heroBackground}>
+        <div className={styles.heroBackgroundOverlay} />
+      </div>
+
+      <div className={styles.heroContent}>
+        <div className={styles.heroContainer}>
+          <div className={styles.heroLeft}>
+            <Heading as="h1" className={styles.heroTitle}>
+              Create diagrams faster and better
+            </Heading>
+            <p className={styles.heroSubtitle}>
+              ZenUML is a multi-platform diagram-as-code solution for sequence
+              diagrams, flow chart* and more
+            </p>
+            <div className={styles.heroButtons}>
+              <Link
+                className={styles.primaryButton}
+                href="https://app.zenuml.com/?cta=main"
+                id="btn_main_get_started"
+              >
+                Get Started
+              </Link>
+              <Link
+                className={styles.secondaryButton}
+                href="https://diagramly.ai/?src=zenuml"
+                id="btn_secondary_read_docs"
+              >
+                Diagramly.Ai
+              </Link>
+            </div>
+          </div>
+
+          <div className={styles.heroRight}>
+            <div className={styles.previewWrapper}>
+              <img
+                src="/img/zenuml-preview.png"
+                alt="ZenUML Preview"
+                className={styles.previewImage}
+              />
+              <div className={styles.previewGlow} />
+            </div>
           </div>
         </div>
-        <div className={styles.right}>
-          <img
-            src="/img/zenuml-preview.png"
-            alt="preview"
-            className={styles.preview}
-          />
-        </div>
+      </div>
+
+      <div className={styles.clientsSection}>
+        <HomepageClient />
       </div>
     </header>
   );
@@ -180,9 +186,6 @@ export default function Home(): JSX.Element {
               <HomepageFeature key={idx} {...feature} />
             ))}
           </div>
-        </section>
-        <section>
-          <HomepageClient />
         </section>
         <section>
           <HomepageQuote />
