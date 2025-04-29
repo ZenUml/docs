@@ -19,19 +19,26 @@ unlisted: false
 
 ## 🚀 Important Update for Free Tier Users
 
-Starting **March 1st, 2025**, ZenUML will introduce limitations on the total number of macros available in our free tier. To ensure uninterrupted access to your workflow:
+As of **April 1st, 2025**, ZenUML has introduced limitations on the total number of macros available in our free tier. To ensure uninterrupted access to your workflow:
 
-- Upgrade to Pro/Enterprise before March 1st, 2025
+- Upgrade to Pro/Enterprise today
 - Get assistance from our dedicated migration team
 - Maintain full access to all your existing macros
 
 Need help with the transition? Our support team is ready to assist via our [support portal](https://zenuml.atlassian.net/servicedesk/customer/portals).
 
+## 💎 How to Upgrade
+
+1. **Submit a Ticket**: Visit our [support portal](https://zenuml.atlassian.net/servicedesk/customer/portals) and submit an upgrade request
+2. **Receive Payment Link**: Our team will generate and send you a secure Stripe checkout link based on your selected plan
+3. **Make Payment**: Complete the payment through our secure Stripe checkout page
+4. **Activation**: Once payment is confirmed, we'll activate your Pro/Enterprise features
+
 ## 💎 Choose Your Plan
 
 ### Pro Plan
 
-- **<s>\$299/year per space</s>** Lock in at **$199/year per space** before 31st Dec, 2024
+- **<s>\$299/year per space</s>** Lock in at **$199/year per space** before 30th June, 2025
 - 101 - 1,000 macros per space
 - Unlimited users
 - All premium features included
@@ -39,7 +46,7 @@ Need help with the transition? Our support team is ready to assist via our [supp
 
 ### Enterprise Plan
 
-- **<del>\$999/year per space</del>** Lock in at **$499/year per space** before 31st Dec, 2024
+- **<del>\$999/year per space</del>** Lock in at **$499/year per space** before 30th June, 2025
 - 1,001+ macros per space
 - Unlimited users
 - All premium features included
@@ -55,7 +62,7 @@ Need help with the transition? Our support team is ready to assist via our [supp
 
 ## 💡 Why Upgrade Now?
 
-1. **Beat the Deadline**: Secure your needed macro capacity before March 1st, 2025
+1. **Don't Delay**: Secure your needed macro capacity as the new limitations are now in effect
 2. **Seamless Transition**: Our team will personally assist with your upgrade
 3. **Immediate Benefits**: Start enjoying premium features right away
 
@@ -65,13 +72,13 @@ Need help with the transition? Our support team is ready to assist via our [supp
 
 Choose Pro if you need up to 1,000 macros per space, or Enterprise for unlimited macro creation. Both plans support unlimited users.
 
-### What happens to my existing macros after March 1st, 2025?
+### What happens to my existing macros now that the new limits are in effect?
 
-Existing free tier users will need to upgrade to continue creating and modifying macros beyond the new limits.
+Free tier users need to upgrade to continue creating and modifying macros beyond the new limits.
 
 ### How long does the upgrade process take?
 
-Most upgrades are completed within minutes, with our support team available to assist if needed.
+Most upgrades are completed within minutes after payment. You'll receive a Stripe checkout link within 1 business day of submitting your request.
 
 ### Can I transfer my existing work to the Pro/Enterprise version?
 
@@ -87,4 +94,6 @@ Yes, you can change your plan at any time. Our support team will help ensure a s
 
 Don't let limitations hold you back. Choose the plan that fits your needs and unlock the full potential of ZenUML.
 
-[Submit upgrade ticket at our Support Site](https://zenuml.atlassian.net/servicedesk/customer/portals)
+[Submit Upgrade Request](https://zenuml.atlassian.net/servicedesk/customer/portals)
+
+_After submitting your request, our team will send you a secure Stripe checkout link for your selected plan. Your Pro/Enterprise features will be activated once payment is received._
