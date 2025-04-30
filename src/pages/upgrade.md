@@ -19,7 +19,7 @@ unlisted: false
 
 ## 🚀 Important Update for Free Tier Users
 
-As of **April 1st, 2025**, ZenUML has introduced limitations on the total number of macros available in our free tier. To ensure uninterrupted access to your workflow:
+As of **March 1st, 2025**, ZenUML has introduced limitations on the total number of macros available in our free tier. To ensure uninterrupted access to your workflow:
 
 - Upgrade to Pro/Enterprise today
 - Get assistance from our dedicated migration team
