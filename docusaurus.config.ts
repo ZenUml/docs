@@ -239,6 +239,13 @@ const config: Config = {
       theme: prismThemes.github,
       darkTheme: prismThemes.dracula,
     },
+    // see https://docusaurus.io/docs/search#algolia-docsearch-metadata
+    algolia: {
+      appId: 'KMUNEB2KXL',
+      apiKey: '2bd6327f16d75df6a1b88a3859b3b370',
+      indexName: 'zenuml',
+      contextualSearch: true,
+    },
   } satisfies Preset.ThemeConfig,
 };
 
