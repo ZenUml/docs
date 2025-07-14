@@ -4,6 +4,7 @@ import Heading from '@theme/Heading';
 import HomepageIntro from '../components/HomepageIntro';
 import HomepageFeature from '../components/HomepageFeature';
 import HomepageClient from '../components/HomepageClient';
+import HomepageAnnouncement from '../components/HomepageAnnouncement';
 import {
   IconUserCircle,
   IconCertificate,
@@ -174,6 +175,7 @@ export default function Home(): JSX.Element {
       description="Description: JavaScript based diagramming tool that renders Markdown-inspired text definitions to create and modify sequence diagrams dynamically."
     >
       <HomepageHeader />
+      <HomepageAnnouncement />
       <main className={styles.main}>
         <section>
           {intros.map((intro, idx) => (

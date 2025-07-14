@@ -13,12 +13,7 @@
     "write-translations": "docusaurus write-translations",
     "write-heading-ids": "docusaurus write-heading-ids",
     "typecheck": "tsc",
-    "prepare": "husky install",
     "test": "vitest"
-  },
-  "lint-staged": {
-    "**/*": "prettier --write --ignore-unknown",
-    "*{.js,.jsx,.ts,.tsx}": "eslint --fix"
   },
   "dependencies": {
     "@docusaurus/core": "3.0.0",
@@ -46,8 +41,6 @@
     "autoprefixer": "^10.4.16",
     "eslint": "^8.52.0",
     "eslint-plugin-react": "^7.33.2",
-    "husky": "^8.0.3",
-    "lint-staged": "^15.0.2",
     "postcss": "^8.4.31",
     "prettier": "3.0.3",
     "tailwindcss": "^3.3.5",
