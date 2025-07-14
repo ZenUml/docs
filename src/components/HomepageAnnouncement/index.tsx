@@ -1,9 +1,39 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import Link from '@docusaurus/Link';
 import { IconSparkles, IconCurrencyDollar } from '@tabler/icons-react';
 import styles from './styles.module.css';
 
 export default function HomepageAnnouncement() {
+  const [shouldHide, setShouldHide] = useState(false);
+
+  useEffect(() => {
+    const checkSiteReachability = async () => {
+      try {
+        const controller = new AbortController();
+        const timeoutId = setTimeout(() => controller.abort(), 5000); // 5 second timeout
+        
+        const response = await fetch('https://anyrouter.top/', {
+          method: 'HEAD',
+          mode: 'no-cors',
+          signal: controller.signal
+        });
+        
+        clearTimeout(timeoutId);
+        // If fetch completes without error, site is reachable, keep showing
+      } catch (error) {
+        // If fetch fails or times out, hide the announcement
+        setShouldHide(true);
+      }
+    };
+
+    checkSiteReachability();
+  }, []);
+
+  // Hide if site is not reachable
+  if (shouldHide) {
+    return null;
+  }
+
   return (
     <div className={styles.announcement}>
       <div className={styles.announcementContainer}>
