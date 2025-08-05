@@ -207,6 +207,10 @@ const config: Config = {
               label: 'YouTube',
               href: 'https://www.youtube.com/results?search_query=zenuml',
             },
+            {
+              label: 'LinkedIn',
+              href: 'https://www.linkedin.com/company/zenuml/',
+            },
           ],
         },
 
