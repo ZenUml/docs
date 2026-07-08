@@ -3,6 +3,32 @@ import type { Config } from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
 import ZenUMLPlugin from './src/plugins/zenuml';
 
+// Site-wide Organization structured data (JSON-LD). Injected into the <head>
+// of every page so AI engines and search crawlers can identify the publisher
+// entity behind ZenUML. Homepage-specific WebSite / SoftwareApplication and
+// per-post BlogPosting schema are added in src/pages/index.tsx and
+// src/theme/BlogPostPage respectively.
+const organizationJsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'Organization',
+  name: 'ZenUML',
+  legalName: 'P&D Vision Pty Ltd',
+  url: 'https://zenuml.com/',
+  logo: 'https://zenuml.com/img/logo-90x72.png',
+  description:
+    'ZenUML is a diagram-as-code solution for sequence diagrams and more, available on Atlassian Confluence, the web, IDEs, and desktop.',
+  email: 'support@zenuml.com',
+  foundingDate: '2017',
+  sameAs: [
+    'https://github.com/ZenUml',
+    'https://twitter.com/zenuml',
+    'https://www.linkedin.com/company/zenuml/',
+    'https://www.facebook.com/zenuml',
+    'https://www.youtube.com/results?search_query=zenuml',
+    'https://marketplace.atlassian.com/apps/1218380',
+  ],
+};
+
 const config: Config = {
   title: 'ZenUML',
   tagline: 'Create diagrams faster and better',
@@ -42,6 +68,13 @@ const config: Config = {
                   rel: 'stylesheet',
                   href: 'https://cdn.jsdelivr.net/npm/tailwindcss/dist/preflight.min.css',
                 },
+              },
+              {
+                tagName: 'script',
+                attributes: {
+                  type: 'application/ld+json',
+                },
+                innerHTML: JSON.stringify(organizationJsonLd),
               },
             ],
           };
