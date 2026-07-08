@@ -16,6 +16,50 @@ import {
 import styles from './index.module.css';
 import HomepageQuote from '../components/HomepageQuote';
 import HomePageFAQ from '@site/src/components/HomePageFAQ';
+import Head from '@docusaurus/Head';
+
+// Homepage-specific structured data. WebSite identifies the site entity;
+// SoftwareApplication describes the ZenUML product itself so AI engines and
+// search can classify and cite it. Site-wide Organization schema is injected
+// globally from docusaurus.config.ts.
+const homepageJsonLd = [
+  {
+    '@context': 'https://schema.org',
+    '@type': 'WebSite',
+    name: 'ZenUML',
+    url: 'https://zenuml.com/',
+    description:
+      'ZenUML is a diagram-as-code solution for sequence diagrams and more, rendered interactively in the browser.',
+    publisher: {
+      '@type': 'Organization',
+      name: 'ZenUML',
+    },
+  },
+  {
+    '@context': 'https://schema.org',
+    '@type': 'SoftwareApplication',
+    name: 'ZenUML',
+    applicationCategory: 'DeveloperApplication',
+    applicationSubCategory: 'Diagramming / UML tool',
+    operatingSystem: 'Web, Windows, macOS, Atlassian Confluence',
+    url: 'https://zenuml.com/',
+    image: 'https://zenuml.com/img/og-image.png',
+    description:
+      'ZenUML turns concise text into interactive UML sequence diagrams and more. It renders in the browser with no server-side processing, uses a DSL 2–3× more concise than PlantUML, and works on Atlassian Confluence, the web, JetBrains and VS Code, and desktop.',
+    offers: {
+      '@type': 'Offer',
+      price: '0',
+      priceCurrency: 'USD',
+      description: 'Free plan available; paid plans raise limits.',
+    },
+    softwareHelp: 'https://zenuml.com/docs/',
+    publisher: {
+      '@type': 'Organization',
+      name: 'ZenUML',
+      legalName: 'P&D Vision Pty Ltd',
+    },
+  },
+];
 
 function HomepageHeader() {
   return (
@@ -173,6 +217,13 @@ export default function Home(): JSX.Element {
       title="A Free Sequence Diagram Online Tool"
       description="Description: JavaScript based diagramming tool that renders Markdown-inspired text definitions to create and modify sequence diagrams dynamically."
     >
+      <Head>
+        {homepageJsonLd.map((schema, idx) => (
+          <script key={idx} type="application/ld+json">
+            {JSON.stringify(schema)}
+          </script>
+        ))}
+      </Head>
       <HomepageHeader />
       <main className={styles.main}>
         <section>

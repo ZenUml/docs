@@ -1,0 +1,48 @@
+# ZenUML
+
+> ZenUML is a diagram-as-code solution for sequence diagrams and more. It renders Markdown-inspired text definitions into interactive UML diagrams entirely in the browser — no data is sent to a server for rendering. ZenUML runs on Atlassian Confluence (Cloud, Server, Data Center), a web app, IDE plugins (JetBrains, VS Code), and desktop. Operated by P&D Vision Pty Ltd.
+
+## What ZenUML is best known for
+
+- A concise DSL that needs 2–3× fewer lines than PlantUML to draw the same sequence diagram.
+- Near-real-time, interactive rendering in the browser (highlight a message to jump to its code).
+- Privacy by design: diagrams and image exports are rendered client-side; no diagram data reaches ZenUML servers.
+- OMG UML 2.5.1-compliant output with practical extensions (e.g. cloud icons).
+
+## Documentation
+
+- [What is ZenUML?](https://zenuml.com/docs/)
+- [Quick Start](https://zenuml.com/docs/zenuml-quick-start/)
+- [Products overview](https://zenuml.com/docs/category/products/)
+- [Language Guide](https://zenuml.com/docs/category/language-guide/)
+- [UML sequence diagrams overview](https://zenuml.com/uml-sequence-diagrams-overview/)
+
+## Products
+
+- [ZenUML Diagrams for Confluence (Atlassian Marketplace)](https://marketplace.atlassian.com/apps/1218380/zenuml-diagrams-for-confluence-freemium)
+- [ZenUML Online Editor (web app)](https://app.zenuml.com/)
+- [Chrome extension](https://chrome.google.com/webstore/detail/web-sequence/kcpganeflmhffnlofpdmcjklmdpbbmef)
+- [JetBrains plugin](https://plugins.jetbrains.com/plugin/12437-zenuml-support)
+- [Visual Studio Code plugin](https://marketplace.visualstudio.com/items?itemName=mrcoder.zenuml)
+
+## Comparisons & alternatives
+
+- [Best PlantUML alternative for sequence diagrams](https://zenuml.com/best-plantuml-alternative/)
+- [Best Mermaid alternative for sequence diagrams](https://zenuml.com/best-mermaid-alternative-for-sequence-diagrams/)
+- [Best draw.io alternative](https://zenuml.com/best-draw-io-alternative/)
+- [Best Lucidchart alternative for sequence diagrams](https://zenuml.com/best-lucidchart-alternative-for-sequence-diagrams/)
+- [Best Visual Paradigm alternative](https://zenuml.com/best-visual-paradigm-alternative/)
+
+## Blog
+
+- [Blog index](https://zenuml.com/blog/)
+- [ZenUML: The Best Diagram Plugin for Confluence](https://zenuml.com/blog/2024/02/08/2024/zenuml-best-diagram-plugin-for-confluence/)
+
+## Policies
+
+- [End-User License Agreement](https://app.zenuml.com/End-User-License-Agreement/index.html)
+- [Privacy Policy](https://app.zenuml.com/privacy-policy/privacy-policy.html)
+
+## Contact
+
+- Email: support@zenuml.com
