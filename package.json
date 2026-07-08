@@ -61,5 +61,10 @@
   },
   "engines": {
     "node": ">=20.0"
+  },
+  "pnpm": {
+    "overrides": {
+      "webpack": "5.89.0"
+    }
   }
 }
