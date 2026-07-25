@@ -199,6 +199,10 @@ const config: Config = {
               href: 'https://marketplace.atlassian.com/apps/1218380/zenuml-diagrams-for-confluence-freemium?hosting=cloud&tab=overview&src=landing',
             },
             {
+              label: 'Mini Sites for Confluence',
+              href: '/mini-sites',
+            },
+            {
               label: 'Online Editor',
               href: 'https://app.zenuml.com/',
             },
