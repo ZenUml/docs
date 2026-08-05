@@ -17,7 +17,7 @@ unlisted: false
 
 ZenUML for Confluence covers every diagramming need your engineering and documentation team has — sequence diagrams, flowcharts, UML, API specs, and more — from a single Forge app installation. No switching tools, no pasting images, no external accounts.
 
-[⚡ Install Free — Lite Plan](https://marketplace.atlassian.com/search?query=zenuml+lite&hosting=cloud&product=confluence) [See All Features](/confluence/features/)
+[⚡ Install Free — Lite Plan](https://marketplace.atlassian.com/search?query=zenuml+lite&hosting=cloud&product=confluence) · [See All Features](/confluence/features/)
 
 ✓ All 6 types on the free Lite plan ✓ All rendering in-browser — private by design ✓ One macro, one picker — choose the type on insert
 
@@ -177,6 +177,6 @@ Yes. The **Embed** type lets you select any existing diagram stored in a Conflue
 
 Install ZenUML for Confluence once from the Atlassian Marketplace and every diagram type is immediately available from the same macro — no configuration, no external accounts.
 
-[⚡ Install Lite — Free](https://marketplace.atlassian.com/search?query=zenuml+lite&hosting=cloud&product=confluence) [Install Full — Paid](https://marketplace.atlassian.com/search?query=zenuml+confluence&hosting=cloud&product=confluence) [Compare plans](/confluence/pricing/)
+[⚡ Install Lite — Free](https://marketplace.atlassian.com/search?query=zenuml+lite&hosting=cloud&product=confluence) · [Install Full — Paid](https://marketplace.atlassian.com/search?query=zenuml+confluence&hosting=cloud&product=confluence) · [Compare plans](/confluence/pricing/)
 
 Rated 4.8★ on Atlassian Marketplace  ·  1,000+ installs  ·  Published by **P&D VISION**

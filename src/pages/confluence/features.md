@@ -23,7 +23,7 @@ All Features
 
 ZenUML for Confluence brings a complete diagramming workspace directly into your Atlassian pages — no external tools, no copy-paste friction, no content leaving your Confluence instance. Six diagram types, a distraction-free fullscreen editor, live preview, one-click export, and AI-assisted generation are all included.
 
-[Install Free on Marketplace](https://marketplace.atlassian.com/apps/1218014/zenuml-sequence-diagram) [Browse Diagram Types](/confluence/diagram-types/)
+[Install Free on Marketplace](https://marketplace.atlassian.com/apps/1218014/zenuml-sequence-diagram) · [Browse Diagram Types](/confluence/diagram-types/)
 
 Editing Experience
 
@@ -147,4 +147,4 @@ Get started for free
 
 Install ZenUML for Confluence from the Atlassian Marketplace — no credit card required. The Lite variant is free for any team size with no macro limit on publish.
 
-[Install Free on Marketplace](https://marketplace.atlassian.com/apps/1218014/zenuml-sequence-diagram) [View Pricing](/confluence/pricing/)
+[Install Free on Marketplace](https://marketplace.atlassian.com/apps/1218014/zenuml-sequence-diagram) · [View Pricing](/confluence/pricing/)

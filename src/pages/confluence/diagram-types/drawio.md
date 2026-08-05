@@ -19,7 +19,7 @@ Part of ZenUML for Confluence  ·  6 diagram types, one app
 
 Create flowcharts, network diagrams, org charts, and any visual diagram using the open-source DrawIO engine — embedded directly into Confluence Cloud. No DrawIO account, no external tool, no copy-pasting images.
 
-[Install Free — Lite Plan](https://marketplace.atlassian.com/search?query=zenuml+lite&hosting=cloud&product=confluence) [All Diagram Types](/confluence/diagram-types/)
+[Install Free — Lite Plan](https://marketplace.atlassian.com/search?query=zenuml+lite&hosting=cloud&product=confluence) · [All Diagram Types](/confluence/diagram-types/)
 
 ✓ Powered by the diagrams.net open-source engine ✓ No DrawIO account required ✓ Import existing .drawio files ✓ Renders in-browser — private by design
 
@@ -174,7 +174,7 @@ Yes, in the same way that any Confluence page content can be edited by multiple 
 
 Install ZenUML for Confluence free from the Atlassian Marketplace. DrawIO, sequence diagrams, Mermaid, PlantUML, and OpenAPI — all in one app. No server setup, no external accounts.
 
-[Install Lite — Free](https://marketplace.atlassian.com/search?query=zenuml+lite&hosting=cloud&product=confluence) [Install Full — Paid](https://marketplace.atlassian.com/search?query=zenuml+confluence&hosting=cloud&product=confluence) [Compare plans](/confluence/pricing/)
+[Install Lite — Free](https://marketplace.atlassian.com/search?query=zenuml+lite&hosting=cloud&product=confluence) · [Install Full — Paid](https://marketplace.atlassian.com/search?query=zenuml+confluence&hosting=cloud&product=confluence) · [Compare plans](/confluence/pricing/)
 
 1,000+
 

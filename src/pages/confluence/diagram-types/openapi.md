@@ -25,7 +25,7 @@ OpenAPI & Swagger
 
 Paste an OpenAPI 3.0 or Swagger 2.0 specification into a Confluence macro and it renders as a fully interactive Swagger UI — browse endpoints, expand schemas, and test calls without leaving your Confluence page.
 
-[Install Free on Marketplace](https://marketplace.atlassian.com/apps/1218014/zenuml-sequence-diagram) [All Diagram Types](/confluence/diagram-types/)
+[Install Free on Marketplace](https://marketplace.atlassian.com/apps/1218014/zenuml-sequence-diagram) · [All Diagram Types](/confluence/diagram-types/)
 
 What is it?
 
@@ -168,4 +168,4 @@ Get started for free
 
 ZenUML Lite is free on the Atlassian Marketplace — no credit card, no external accounts. The OpenAPI viewer is included in the free plan alongside five other diagram types.
 
-[Install Free on Marketplace](https://marketplace.atlassian.com/apps/1218014/zenuml-sequence-diagram) [All Diagram Types](/confluence/diagram-types/)
+[Install Free on Marketplace](https://marketplace.atlassian.com/apps/1218014/zenuml-sequence-diagram) · [All Diagram Types](/confluence/diagram-types/)

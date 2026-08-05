@@ -21,7 +21,7 @@ Install directly from the Atlassian Marketplace — no dev setup, no credit card
 
 Atlassian Marketplace verified Forge-native — no external servers required Free Lite plan, no credit card needed Confluence Cloud only
 
-[Install Lite — Free](https://marketplace.atlassian.com/search?query=zenuml+lite&hosting=cloud&product=confluence) [View Full Plan](https://marketplace.atlassian.com/search?query=zenuml+confluence&hosting=cloud&product=confluence)
+[Install Lite — Free](https://marketplace.atlassian.com/search?query=zenuml+lite&hosting=cloud&product=confluence) · [View Full Plan](https://marketplace.atlassian.com/search?query=zenuml+confluence&hosting=cloud&product=confluence)
 
 ## Six steps from zero to your first diagram
 
@@ -167,6 +167,6 @@ Yes. Upgrading from Lite to Full is a plan change within the same Atlassian Mark
 
 Install ZenUML Lite for free in under 2 minutes — no credit card, no expiry. Upgrade to Full any time.
 
-[Install Lite Free on Marketplace](https://marketplace.atlassian.com/search?query=zenuml+lite&hosting=cloud&product=confluence) [View Full Plan](https://marketplace.atlassian.com/search?query=zenuml+confluence&hosting=cloud&product=confluence)
+[Install Lite Free on Marketplace](https://marketplace.atlassian.com/search?query=zenuml+lite&hosting=cloud&product=confluence) · [View Full Plan](https://marketplace.atlassian.com/search?query=zenuml+confluence&hosting=cloud&product=confluence)
 
 Questions? Visit our [FAQ](/confluence/faq/) or [contact support](mailto:support@zenuml.com).

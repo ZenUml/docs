@@ -19,7 +19,7 @@ OMG UML 2.5.1 compliant  ·  2-3× more concise than PlantUML  ·  In-browse
 
 Write sequence diagrams as code directly inside Confluence using ZenUML DSL — a concise, standards-compliant text syntax. No image uploads, no external tools. The diagram renders in the browser in real time from the moment you type.
 
-[Install Free — Lite Plan](https://marketplace.atlassian.com/search?query=zenuml+lite&hosting=cloud&product=confluence) [See the syntax](#code-example)
+[Install Free — Lite Plan](https://marketplace.atlassian.com/search?query=zenuml+lite&hosting=cloud&product=confluence) · [See the syntax](#code-example)
 
 ✓ OMG UML 2.5.1 compliant ✓ 2-3× more concise than PlantUML ✓ Renders in-browser — zero server upload ✓ Free Lite plan — no credit card
 
@@ -163,7 +163,7 @@ Yes. Every ZenUML sequence diagram can be exported to **PNG or PDF** directly fr
 
 Install ZenUML Lite in under two minutes. No server setup, no external accounts, no credit card. The free Lite plan supports all diagram types including ZenUML sequence diagrams.
 
-[Install Free — Lite Plan](https://marketplace.atlassian.com/search?query=zenuml+lite&hosting=cloud&product=confluence) [Install Full — Paid](https://marketplace.atlassian.com/search?query=zenuml+confluence&hosting=cloud&product=confluence)
+[Install Free — Lite Plan](https://marketplace.atlassian.com/search?query=zenuml+lite&hosting=cloud&product=confluence) · [Install Full — Paid](https://marketplace.atlassian.com/search?query=zenuml+confluence&hosting=cloud&product=confluence)
 
 1 Find on Marketplace Search "ZenUML" on the Atlassian Marketplace and choose Lite or Full.
 

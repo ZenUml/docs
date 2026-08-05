@@ -19,7 +19,7 @@ unlisted: false
 
 Everything you need to know about installing, using, and getting the most out of ZenUML for Confluence.
 
-[Getting Started](#getting-started) [Diagram Types](#diagram-types) [Pricing & Plans](#pricing) [Features & Usage](#features) [Technical & Privacy](#technical) [Troubleshooting](#troubleshooting)
+[Getting Started](#getting-started) · [Diagram Types](#diagram-types) · [Pricing & Plans](#pricing) · [Features & Usage](#features) · [Technical & Privacy](#technical) · [Troubleshooting](#troubleshooting)
 
 ## Getting Started
 
@@ -284,4 +284,4 @@ You can also leave a review and feature suggestion via the [Atlassian Marketplac
 
 Install ZenUML Lite for free and explore all diagram types right inside Confluence. No credit card, no time limit.
 
-[Install Free on Marketplace](https://marketplace.atlassian.com/apps/1218971) [Open a GitHub Issue](https://github.com/ZenUml/conf-app/issues)
+[Install Free on Marketplace](https://marketplace.atlassian.com/apps/1218971) · [Open a GitHub Issue](https://github.com/ZenUml/conf-app/issues)

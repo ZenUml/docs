@@ -19,7 +19,7 @@ unlisted: false
 
 Write PlantUML syntax directly inside a Confluence macro. Class diagrams, component diagrams, deployment, activity, state, and more — rendered live in the browser, stored as text, private by design.
 
-[⚡ Install Free — Lite Plan](https://marketplace.atlassian.com/search?query=zenuml+lite&hosting=cloud&product=confluence) [All Diagram Types](/confluence/diagram-types/)
+[⚡ Install Free — Lite Plan](https://marketplace.atlassian.com/search?query=zenuml+lite&hosting=cloud&product=confluence) · [All Diagram Types](/confluence/diagram-types/)
 
 ✓ Same syntax as your IDE plugins ✓ No server-side rendering — stays in Confluence ✓ Version-controlled text diagrams
 
@@ -166,6 +166,6 @@ On any Confluence page, type `/ZenUML` or use the macro picker. Select **PlantUM
 
 Paste your existing `@startuml … @enduml` block into the editor. The diagram renders live as you type. Click Publish to save.
 
-[⚡ Install Lite — Free](https://marketplace.atlassian.com/search?query=zenuml+lite&hosting=cloud&product=confluence) [Install Full — Paid](https://marketplace.atlassian.com/search?query=zenuml+confluence&hosting=cloud&product=confluence) [All Diagram Types](/confluence/diagram-types/)
+[⚡ Install Lite — Free](https://marketplace.atlassian.com/search?query=zenuml+lite&hosting=cloud&product=confluence) · [Install Full — Paid](https://marketplace.atlassian.com/search?query=zenuml+confluence&hosting=cloud&product=confluence) · [All Diagram Types](/confluence/diagram-types/)
 
 Used by engineering teams at Amazon, ThoughtWorks, and more.  |  Published by **P&D VISION** on Atlassian Marketplace.

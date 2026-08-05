@@ -19,11 +19,9 @@ Atlassian Marketplace App
 
 Free to start — no credit card required. The Lite plan is permanently free for up to 100 diagrams per space. Upgrade when you need more.
 
-[Install Lite Free](https://marketplace.atlassian.com/apps/1226524/zenuml-sequence-diagram) [View Full Plan on Marketplace](https://marketplace.atlassian.com/apps/1226524/zenuml-sequence-diagram)
+[Install Lite Free](https://marketplace.atlassian.com/apps/1226524/zenuml-sequence-diagram) · [View Full Plan on Marketplace](https://marketplace.atlassian.com/apps/1226524/zenuml-sequence-diagram)
 
-Lite
-
-Free
+## Lite — free
 
 Forever free · No credit card
 
@@ -36,9 +34,7 @@ Forever free · No credit card
 - Embed existing diagrams across pages
 - Available on Atlassian Marketplace at no cost
 
-Full
-
-Paid
+## Full — paid
 
 Per-user pricing · [See current price on Marketplace](https://marketplace.atlassian.com/apps/1226524/zenuml-sequence-diagram)
 
@@ -124,4 +120,4 @@ Have another question? [Visit the full FAQ](/confluence/faq/) or [view support r
 
 Lite is free, forever. No credit card. No setup fees. Install directly from the Atlassian Marketplace in under a minute.
 
-[Install Lite Free — Atlassian Marketplace](https://marketplace.atlassian.com/apps/1226524/zenuml-sequence-diagram) [View Full Plan Pricing](https://marketplace.atlassian.com/apps/1226524/zenuml-sequence-diagram)
+[Install Lite Free — Atlassian Marketplace](https://marketplace.atlassian.com/apps/1226524/zenuml-sequence-diagram) · [View Full Plan Pricing](https://marketplace.atlassian.com/apps/1226524/zenuml-sequence-diagram)

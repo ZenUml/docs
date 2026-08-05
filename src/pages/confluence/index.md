@@ -19,7 +19,7 @@ unlisted: false
 
 ZenUML for Confluence is an Atlassian Forge app that lets teams create, edit, and maintain sequence diagrams, Mermaid charts, DrawIO flowcharts, PlantUML diagrams, and OpenAPI specs directly on Confluence Cloud pages — no external tools, no copy-pasting images.
 
-[⚡ Install Free — Lite Plan](https://marketplace.atlassian.com/search?query=zenuml+lite&hosting=cloud&product=confluence) [See All Features](/confluence/features/)
+[⚡ Install Free — Lite Plan](https://marketplace.atlassian.com/search?query=zenuml+lite&hosting=cloud&product=confluence) · [See All Features](/confluence/features/)
 
 ✓ Free Lite plan — no credit card ✓ Installs in under 2 minutes ✓ Diagrams render in-browser — private by design ✓ Used by teams at Amazon & ThoughtWorks
 
@@ -116,7 +116,7 @@ Start free. Upgrade when your team grows. Both variants include all six diagram 
 | Installs | 898+ | — |
 | Price | Free | Marketplace subscription |
 
-[Install Lite — Free](https://marketplace.atlassian.com/search?query=zenuml+lite&hosting=cloud&product=confluence) [Install Full — Paid](https://marketplace.atlassian.com/search?query=zenuml+confluence&hosting=cloud&product=confluence) [Full pricing details](/confluence/pricing/)
+[Install Lite — Free](https://marketplace.atlassian.com/search?query=zenuml+lite&hosting=cloud&product=confluence) · [Install Full — Paid](https://marketplace.atlassian.com/search?query=zenuml+confluence&hosting=cloud&product=confluence) · [Full pricing details](/confluence/pricing/)
 
 ## Frequently Asked Questions
 
@@ -189,6 +189,6 @@ Select your Confluence Cloud site and confirm. Atlassian handles the install —
 
 On any Confluence page, type `/ZenUML` or use the macro picker to insert a diagram. Choose your type, write or paste your code, and click Publish.
 
-[⚡ Install Lite — Free](https://marketplace.atlassian.com/search?query=zenuml+lite&hosting=cloud&product=confluence) [Install Full — Paid](https://marketplace.atlassian.com/search?query=zenuml+confluence&hosting=cloud&product=confluence)
+[⚡ Install Lite — Free](https://marketplace.atlassian.com/search?query=zenuml+lite&hosting=cloud&product=confluence) · [Install Full — Paid](https://marketplace.atlassian.com/search?query=zenuml+confluence&hosting=cloud&product=confluence)
 
 Used by engineering teams at Amazon, ThoughtWorks, and more.  |  Published by **P&D VISION** on Atlassian Marketplace.

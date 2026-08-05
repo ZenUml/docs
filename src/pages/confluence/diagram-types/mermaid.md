@@ -25,7 +25,7 @@ Diagram Types
 
 Write Mermaid.js syntax directly in your Confluence pages and get flowcharts, sequence diagrams, class diagrams, Gantt charts, ER diagrams, and more — rendered live in the browser, stored as text, and version-controlled alongside your documentation.
 
-[Install Free on Marketplace](https://marketplace.atlassian.com/apps/1218014/zenuml-sequence-diagram) [All Diagram Types](/confluence/diagram-types/)
+[Install Free on Marketplace](https://marketplace.atlassian.com/apps/1218014/zenuml-sequence-diagram) · [All Diagram Types](/confluence/diagram-types/)
 
 About Mermaid
 
@@ -193,4 +193,4 @@ Get started for free
 
 Install ZenUML for Confluence from the Atlassian Marketplace — free, no credit card required. Write your first Mermaid diagram in under two minutes.
 
-[Install Free on Marketplace](https://marketplace.atlassian.com/apps/1218014/zenuml-sequence-diagram) [See All Diagram Types](/confluence/diagram-types/)
+[Install Free on Marketplace](https://marketplace.atlassian.com/apps/1218014/zenuml-sequence-diagram) · [See All Diagram Types](/confluence/diagram-types/)
