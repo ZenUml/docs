@@ -196,7 +196,7 @@ const config: Config = {
           items: [
             {
               label: 'Diagrams for Confluence',
-              href: 'https://marketplace.atlassian.com/apps/1218380/zenuml-diagrams-for-confluence-freemium?hosting=cloud&tab=overview&src=landing',
+              href: '/confluence',
             },
             {
               label: 'Mini Sites for Confluence',
