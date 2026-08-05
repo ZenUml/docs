@@ -59,6 +59,51 @@ All major PlantUML diagram categories are supported. Write standard `@startuml �
 
 The snippet below is a complete PlantUML class diagram. Paste it directly into the ZenUML macro editor — no modifications needed.
 
+```plantuml
+@startuml
+
+skinparam classAttributeIconSize 0
+
+package "Order Service" {
+
+  class Order {
+    +id: UUID
+    +status: OrderStatus
+    +createdAt: DateTime
+    +totalAmount: Money
+    +place()
+    +cancel()
+  }
+
+  class OrderItem {
+    +productId: UUID
+    +quantity: Int
+    +unitPrice: Money
+  }
+
+  enum OrderStatus {
+    PENDING
+    CONFIRMED
+    SHIPPED
+    DELIVERED
+    CANCELLED
+  }
+
+  class Customer {
+    +id: UUID
+    +email: String
+    +name: String
+  }
+
+}
+
+Customer "1" --> "0..*" Order : places
+Order "1" *-- "1..*" OrderItem : contains
+Order -> OrderStatus : has
+
+@enduml
+```
+
 ### Package grouping
 
 The `package` keyword groups related classes into a named boundary — useful for bounded-context documentation and microservice domain maps.
