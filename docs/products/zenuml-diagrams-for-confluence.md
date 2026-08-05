@@ -3,19 +3,23 @@ sidebar_position: 1
 title: ZenUML Diagrams For Confluence
 #sidebar_label: Quick Start
 #pagination_label: Quick Start
-description: Introduction of ZenUML Diagrams For Confluence
+description: How to install the ZenUML add-on in Confluence Cloud and insert your first diagram macro.
+# Product and comparison keywords live on /confluence/ — that page is the ranking
+# target for them. This page keeps how-to intent only, so the two do not compete
+# for the same queries.
 keywords:
-  - Confluence diagramming tool
-  - Atlassian Marketplace ZenUML
-  - Confluence diagram plugin
-  - UML diagram Confluence integration
-  - Mermaid diagrams plugin for Confluence
-  - Confluence UML diagram macro
-  - Software development diagramming Confluence
+  - how to use zenuml in confluence
+  - insert diagram macro confluence
+  - zenuml confluence editor guide
+  - confluence diagram macro tutorial
+  - universal plugin manager zenuml
 #slug: /quick-start
 ---
 
 # ZenUML Diagrams For Confluence
+
+For features, pricing, diagram types and FAQ, see [ZenUML for Confluence](/confluence). This page covers
+installation and day-to-day use.
 
 ![](../../static/img/docs/product-zenuml-for-confluence-01.webp)
 
