@@ -19,6 +19,11 @@ const organizationJsonLd = {
     'ZenUML is a diagram-as-code solution for sequence diagrams and more, available on Atlassian Confluence, the web, IDEs, and desktop.',
   email: 'support@zenuml.com',
   foundingDate: '2017',
+  contactPoint: {
+    '@type': 'ContactPoint',
+    email: 'support@zenuml.com',
+    contactType: 'customer support',
+  },
   sameAs: [
     'https://github.com/ZenUml',
     'https://twitter.com/zenuml',
@@ -87,15 +92,6 @@ const config: Config = {
         },
       };
     },
-    [
-      '@docusaurus/plugin-sitemap',
-      {
-        id: 'sitemap2',
-        changefreq: 'daily' as 'daily' | 'weekly' | 'monthly' | 'yearly',
-        priority: 0.5,
-        filename: 'sitemap-all.xml',
-      },
-    ],
   ],
   presets: [
     [
@@ -221,10 +217,6 @@ const config: Config = {
             {
               label: 'ZenUML for Mac',
               href: 'https://apps.apple.com/app/zenuml/id1602636196?mt=12',
-            },
-            {
-              label: 'ZenUML for Windows',
-              href: 'https://loginput-mac2.totest.top/ZenUML-Setup.zip',
             },
           ],
         },

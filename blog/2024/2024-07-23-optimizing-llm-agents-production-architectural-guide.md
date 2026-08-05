@@ -1,6 +1,6 @@
 ---
-title: 'Mastering LLM Agents: A Revolutionary Architectural Blueprint for Production-Ready AI Systems'
-description: 'Explore the path to production for LLM agents with this comprehensive architectural guide. Learn about the ReWOO approach, RAG integration, and microservice implementation for efficient AI deployment. Discover best practices and future trends in LLM agent architecture.'
+title: 'LLM Agents in Production: An Architectural Guide'
+description: 'A practical guide to deploying LLM agents in production: the ReWOO approach, RAG integration, microservices, and best practices for reliable AI systems.'
 authors: [xiaowenz]
 tags:
   - LLM agents

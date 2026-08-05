@@ -1,6 +1,6 @@
 ---
-title: Mini Sites for Confluence — embed a live HTML prototype
-description: 'Mini Sites for Confluence embeds a folder of HTML, CSS and JavaScript live on a Confluence page. A clickable prototype, a filterable dashboard or a small internal tool runs inline — the real thing, not a screenshot.'
+title: 'Mini Sites for Confluence: embed a live HTML app'
+description: 'Mini Sites for Confluence embeds a folder of HTML, CSS and JavaScript live on a page — a clickable prototype or dashboard, running inline, not a screenshot.'
 keywords:
   [
     mini sites for confluence,
@@ -12,6 +12,12 @@ keywords:
   ]
 unlisted: false
 ---
+
+import Head from '@docusaurus/Head';
+
+<Head>
+<script type="application/ld+json">{`{"@context": "https://schema.org", "@type": "SoftwareApplication", "name": "Mini Sites for Confluence", "url": "https://zenuml.com/mini-sites/", "applicationCategory": "BusinessApplication", "operatingSystem": "Atlassian Confluence Cloud", "description": "Mini Sites for Confluence is an Atlassian Forge app that takes a folder of HTML, CSS and JavaScript and runs it live and interactive inside a Confluence page — a clickable prototype, a filterable dashboard or a small internal tool, the real thing running on the page, not a screenshot of it.", "featureList": ["Clickable prototypes rendered live on the page", "Filterable dashboards over a bundled JSON file", "Small internal tools (calculators, checklists, decision trees)", "Design system demos using the app's own CSS", "Nested folders and relative paths preserved", "Confluence permissions inherited, no separate sharing model", "Each macro instance runs in an isolated, non-routable sandbox", "Every bundle validated and secret-scanned before serving"], "publisher": {"@type": "Organization", "name": "ZenUML", "legalName": "P&D Vision Pty Ltd"}, "mainEntityOfPage": {"@type": "WebPage", "@id": "https://zenuml.com/mini-sites/"}}`}</script>
+</Head>
 
 # Mini Sites for Confluence
 

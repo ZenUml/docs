@@ -38,7 +38,6 @@ Goto [ZenUML Online Editor](https://app.zenuml.com) or click the **arrow** on ab
 - [JetBrains Plugin](https://plugins.jetbrains.com/plugin/12437-zenuml-support)
 - [Visual Studio Code Extension](https://marketplace.visualstudio.com/items?itemName=mrcoder.zenuml)
 - [ZenUML for Mac](https://apps.apple.com/app/zenuml/id1602636196?mt=12)
-- [ZenUML for Windows](https://loginput-mac2.totest.top/ZenUML-Setup.zip)
 
 ## Compliant with Standard
 

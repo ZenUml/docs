@@ -215,7 +215,7 @@ export default function Home(): JSX.Element {
   return (
     <Layout
       title="A Free Sequence Diagram Online Tool"
-      description="Description: JavaScript based diagramming tool that renders Markdown-inspired text definitions to create and modify sequence diagrams dynamically."
+      description="ZenUML is a diagram-as-code tool for sequence diagrams and more. Write concise text, get interactive diagrams instantly — no server-side rendering required."
     >
       <Head>
         {homepageJsonLd.map((schema, idx) => (

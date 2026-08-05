@@ -1,6 +1,6 @@
 ---
-title: 'Best Mermaid Alternatives for Sequence Diagrams | ZenUML'
-description: 'Tired of the same old sequence diagram tools? We ve evaluated 5 of the best Mermaid alternatives for creating visually stunning sequence diagrams without code. These open-source and free tools allow you to quickly design interactive sequence diagrams that are sure to impress.'
+title: 'Best Mermaid Alternatives for Sequence Diagrams'
+description: 'Comparing the best Mermaid alternatives for sequence diagrams — ZenUML and other tools compared on ease of use, customization, and rendering speed.'
 keywords:
   [
     mermaid alternatives,
@@ -58,7 +58,7 @@ ZenUML redefines the way you work with sequence diagrams:
 
 ---
 
-# Top Alternatives to Mermaid for Sequence Diagrams
+## Top Alternatives to Mermaid for Sequence Diagrams
 
 When it comes to finding a Mermaid alternative, ZenUML is a strong candidate. Here are the best options for crafting high-quality sequence diagrams:
 
