@@ -41,6 +41,14 @@ ZenUML for Confluence brings the same Mermaid.js library into your Atlassian wor
 
 The code below is a complete Mermaid flowchart. Paste it into a ZenUML macro set to the Mermaid type and it renders immediately — no configuration required.
 
+```mermaid
+graph TD
+  A[User] --> B{Login?}
+  B -- Yes --> C[Dashboard]
+  B -- No -->  D[Login Page]
+  D --> B
+```
+
 This syntax is identical to what you would write in a GitHub README fenced code block — no changes required when moving between tools.
 
 ## Supported Mermaid diagram types

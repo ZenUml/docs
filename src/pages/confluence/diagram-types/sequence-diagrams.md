@@ -41,11 +41,18 @@ Inside Confluence, ZenUML sequence diagrams live in a macro on the page. The sou
 
 ZenUML DSL models sequence diagrams as **call expressions** — the same mental model developers use when reading or writing code. Participants are inferred automatically from the messages you write, eliminating the boilerplate declarations that PlantUML requires. The result is diagrams that are typically **2-3× shorter** than equivalent PlantUML source while remaining fully UML-compliant.
 
-## ZenUML DSL — a four-message order flow
+## ZenUML DSL — a four-message order flow {#code-example}
 
 Participants are inferred from message sources and targets. No declarations, no boilerplate. The `-->` arrow denotes an asynchronous or return message. Dashes render as a dashed line on the diagram.
 
-order-flow.zenuml
+```zenuml title="order-flow.zenuml"
+title Order Flow
+
+Client -> OrderService: placeOrder(items)
+OrderService -> InventoryService: checkStock(items)
+InventoryService --> OrderService: stockAvailable
+OrderService --> Client: orderConfirmed
+```
 
 ✓ 5 lines of source — no boilerplate ✓ Participants auto-inferred ✓ UML 2.5.1 compliant output
 
@@ -53,17 +60,37 @@ order-flow.zenuml
 
 Both syntaxes produce the same sequence diagram. ZenUML DSL removes the delimiter scaffolding, eliminates participant declarations (they are inferred), and uses a call-expression style that reads more like code. The result is typically 2-3× fewer lines for the same diagram.
 
-ZenUML DSL 5 lines
+**ZenUML DSL — 5 lines**
 
-`title Order Flow Client -> OrderService: placeOrder(items) OrderService -> InventoryService: checkStock(items) InventoryService --> OrderService: stockAvailable OrderService --> Client: orderConfirmed`
+```zenuml
+title Order Flow
+
+Client -> OrderService: placeOrder(items)
+OrderService -> InventoryService: checkStock(items)
+InventoryService --> OrderService: stockAvailable
+OrderService --> Client: orderConfirmed
+```
 
 - ✓ No `@startuml` / `@enduml` delimiters
 - ✓ Participants inferred — no declarations needed
 - ✓ Call-expression style mirrors code semantics
 
-PlantUML (equivalent) 12 lines
+**PlantUML (equivalent) — 12 lines**
 
-`@startuml title Order Flow participant Client participant OrderService participant InventoryService Client -> OrderService : placeOrder(items) OrderService -> InventoryService : checkStock(items) InventoryService --> OrderService : stockAvailable OrderService --> Client : orderConfirmed @enduml`
+```plantuml
+@startuml
+title Order Flow
+
+participant Client
+participant OrderService
+participant InventoryService
+
+Client -> OrderService : placeOrder(items)
+OrderService -> InventoryService : checkStock(items)
+InventoryService --> OrderService : stockAvailable
+OrderService --> Client : orderConfirmed
+@enduml
+```
 
 - ✗ Requires delimiter boilerplate
 - ✗ Must declare every participant explicitly
@@ -141,7 +168,14 @@ Common questions about ZenUML sequence diagrams in Confluence — syntax, compar
 
 ### What is ZenUML sequence diagram syntax?
 
-ZenUML DSL is a text-based syntax for writing **OMG UML 2.5.1-compliant sequence diagrams**. It uses a call-expression style that mirrors how developers think about code execution: `Client -> OrderService: placeOrder(items) OrderService --> Client: orderConfirmed` Participants are inferred automatically from messages — no explicit declarations needed. Notes, combined fragments (alt, loop, opt, par), self-calls, and return arrows are all supported. The source is stored as plain text in Confluence custom content and rendered in the browser via the ZenUML engine.
+ZenUML DSL is a text-based syntax for writing **OMG UML 2.5.1-compliant sequence diagrams**. It uses a call-expression style that mirrors how developers think about code execution:
+
+```zenuml
+Client -> OrderService: placeOrder(items)
+OrderService --> Client: orderConfirmed
+```
+
+Participants are inferred automatically from messages — no explicit declarations needed. Notes, combined fragments (alt, loop, opt, par), self-calls, and return arrows are all supported. The source is stored as plain text in Confluence custom content and rendered in the browser via the ZenUML engine.
 
 ### How does ZenUML DSL compare to PlantUML sequence syntax?
 
@@ -153,7 +187,17 @@ Yes. ZenUML for Confluence includes a full **Mermaid.js renderer** alongside the
 
 ### How do I document API flows in Confluence?
 
-Insert a ZenUML macro on any Confluence page and choose the **Sequence** type. Write your API interaction in ZenUML DSL — for example: `title Order Flow Client -> OrderService: placeOrder(items) OrderService -> InventoryService: checkStock(items) InventoryService --> OrderService: stockAvailable OrderService --> Client: orderConfirmed` Publish the page and the diagram renders inline for all readers. For REST or GraphQL API contracts, pair the sequence diagram with the [OpenAPI macro](/confluence/diagram-types/openapi/) in the same app — interactive swagger-ui renders alongside the sequence diagram on the same Confluence page.
+Insert a ZenUML macro on any Confluence page and choose the **Sequence** type. Write your API interaction in ZenUML DSL — for example:
+
+```zenuml
+title Order Flow
+Client -> OrderService: placeOrder(items)
+OrderService -> InventoryService: checkStock(items)
+InventoryService --> OrderService: stockAvailable
+OrderService --> Client: orderConfirmed
+```
+
+Publish the page and the diagram renders inline for all readers. For REST or GraphQL API contracts, pair the sequence diagram with the [OpenAPI macro](/confluence/diagram-types/openapi/) in the same app — interactive swagger-ui renders alongside the sequence diagram on the same Confluence page.
 
 ### Can I export sequence diagrams to PNG?
 

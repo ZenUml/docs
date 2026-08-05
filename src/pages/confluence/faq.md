@@ -69,6 +69,13 @@ Partially, depending on the source format:
 
 A ZenUML sequence diagram describes interactions between participants (people, services, systems) over time using a text-based DSL (domain-specific language). The ZenUML DSL is designed to be more readable and maintainable than traditional UML text formats. For example:
 
+```zenuml
+Client -> OrderService.placeOrder(item) {
+  OrderService -> Inventory.checkStock(item)
+  return orderId
+}
+```
+
 This renders a clean, standards-compliant UML sequence diagram. Because diagrams live as code, they are diffable in version control, reviewable in pull requests, and reproducible from a plain-text source.
 
 ### What Mermaid diagram types are supported?
