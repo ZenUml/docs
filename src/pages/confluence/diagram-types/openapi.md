@@ -13,6 +13,13 @@ keywords:
 unlisted: false
 ---
 
+import Head from '@docusaurus/Head';
+
+<Head>
+<script type="application/ld+json">{`{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What OpenAPI versions does ZenUML support?", "acceptedAnswer": {"@type": "Answer", "text": "ZenUML for Confluence supports OpenAPI 3.0 (and 3.1) and Swagger 2.0 specifications. Both YAML and JSON formats are accepted. Paste the spec directly into the macro editor — no file upload or conversion step required."}}, {"@type": "Question", "name": "Can I test API endpoints from Confluence with ZenUML?", "acceptedAnswer": {"@type": "Answer", "text": "The Swagger UI rendered by ZenUML includes the 'Try it out' panel for each endpoint. Whether live requests succeed depends on whether your API backend is accessible from the browser and whether CORS is configured to allow the request origin. ZenUML itself does not proxy or restrict the requests — the browser sends them directly to the URL defined in the spec's servers field."}}, {"@type": "Question", "name": "Does the OpenAPI viewer support authentication headers in Swagger UI?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. Swagger UI renders the Authorize button and auth dialogs defined in your spec's securitySchemes — including HTTP Basic, Bearer tokens, API keys, and OAuth 2.0 flows. Users can enter credentials in Swagger UI's auth dialog and they will be included in 'Try it out' requests. Credentials are held in browser memory only and are not persisted by ZenUML."}}, {"@type": "Question", "name": "How do I keep my OpenAPI spec updated in Confluence?", "acceptedAnswer": {"@type": "Answer", "text": "Edit the macro and paste the updated spec into the editor, then publish the Confluence page. Each save creates a new Confluence custom content version, so the full edit history is preserved and any past spec version can be restored. For teams using CI/CD, the Confluence REST API can be used to update page content programmatically — the spec lives as plain text, making automation straightforward."}}, {"@type": "Question", "name": "Can I embed an OpenAPI spec from a URL?", "acceptedAnswer": {"@type": "Answer", "text": "The ZenUML OpenAPI viewer requires the spec to be pasted directly into the macro editor — it does not fetch specs from an external URL at render time. This keeps the rendering fully in-browser and avoids exposing internal API URLs or requiring outbound network access from the viewer. If your spec is hosted externally, copy its content into the macro editor and update it manually when the spec changes."}}]}`}</script>
+</Head>
+
+
 1. [Home](/confluence/)
 2. ›
 3. [Diagram Types](/confluence/diagram-types/)
