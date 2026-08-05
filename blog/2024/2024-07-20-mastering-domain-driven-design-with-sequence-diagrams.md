@@ -1,6 +1,6 @@
 ---
-title: 'Unlocking the Power of Sequence Diagrams in Domain-Driven Design'
-description: 'Discover the power of Sequence Diagrams in Domain-Driven Design and Business Analysis. Learn how to leverage this visual tool to enhance collaboration, identify pain points, validate requirements, and optimize business processes. Explore practical examples and unlock the benefits of Sequence Diagrams for your software development and business analysis workflows.'
+title: 'Sequence Diagrams for Domain-Driven Design'
+description: 'Sequence diagrams help teams model Domain-Driven Design: visualize workflows, validate requirements, and improve developer-analyst collaboration.'
 authors: [xiaowenz]
 tags:
   - Sequence Diagram

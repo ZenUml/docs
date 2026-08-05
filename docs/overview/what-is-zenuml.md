@@ -1,10 +1,10 @@
 ---
 sidebar_position: 1
-title: What is ZenUML?
+title: What is ZenUML? Diagram-as-code for teams
 sidebar_label: What is ZenUML?
 pagination_label: What is ZenUML?
 #custom_edit_url: https://github.com/facebook/docusaurus/edit/main/docs/api-doc-markdown.md
-description: What is ZenUML and why it's different.
+description: ZenUML is a diagram-as-code family of tools for sequence diagrams, rendered interactively in the browser with real-time updates and no server-side processing.
 keywords:
   - zenuml
   - diagram as code

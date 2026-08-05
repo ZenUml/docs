@@ -20,4 +20,5 @@ keywords:
 
 ## Windows
 
-[Download](https://loginput-mac2.totest.top/ZenUML-Setup.zip)
+A native Windows build is not currently available for download. Use the
+[ZenUML Online Editor](https://app.zenuml.com/) in any modern browser instead.
