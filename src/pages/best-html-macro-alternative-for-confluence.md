@@ -16,8 +16,8 @@ unlisted: false
 # Best HTML Macro alternative for Confluence Cloud
 
 Most people searching for an HTML macro alternative are not looking for a *better snippet field*. They are
-looking for a way to put something **real and interactive** on a Confluence page — a prototype, a dashboard,
-a small tool — and the snippet macro is the only tool they have found so far.
+looking for a way to put something **real and interactive** on a Confluence page — a prototype, a
+self-contained dashboard, a small tool — and the snippet macro is the only tool they have found so far.
 
 If that is you, the honest answer is that you want a different shape of app.
 
