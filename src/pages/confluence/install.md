@@ -34,19 +34,15 @@ Atlassian Marketplace verified Forge-native — no external servers required Fre
 
 No developer skills required. If you can edit a Confluence page, you can create a diagram.
 
-1
+![Inserting a ZenUML macro from the Confluence editor: typing "zenuml" in the insert menu lists the sequence diagram, graph, OpenAPI, and embed macros.](/img/docs/product-zenuml-for-confluence-02.png)
 
 ### Go to the Atlassian Marketplace
 
 Open [marketplace.atlassian.com](https://marketplace.atlassian.com/search?query=zenuml+lite&hosting=cloud&product=confluence) and search for **ZenUML**. You can search directly for "ZenUML Lite" (free) or "ZenUML for Confluence" (Full paid plan). The listing is published by *ZenUML* and shows the Atlassian verified badge.
 
-2
-
 ### Choose Lite (free) or Full (paid)
 
 **Lite** is free forever — all six diagram types, up to 100 macros per space, no time limit. **Full** removes the per-space macro limit, adds priority support, and unlocks advanced PDF export and custom branding options.
-
-3
 
 ### Click "Try it free" / "Get app" and approve Forge permissions
 
@@ -57,13 +53,9 @@ Atlassian will display the Forge permission scopes the app requests before you c
 
 No scopes outside Confluence content are requested. Your diagram data is stored as Confluence custom content — it lives inside your Confluence site, not on a third-party server.
 
-4
-
 ### Open a Confluence page in edit mode and type /diagram
 
 Navigate to any Confluence page, click **Edit** to enter edit mode, then click in the page body and type /diagram. The ZenUML — Diagram as Code macro will appear in the insert menu. Click it to open the diagram editor.
-
-5
 
 ### Choose your diagram type
 
@@ -75,8 +67,6 @@ The editor opens a type picker. Six options are available:
 - **PlantUML** — class, component, state, and activity diagrams
 - **OpenAPI** — render any OpenAPI/Swagger spec as interactive docs
 - **Embed** — embed an existing ZenUML, DrawIO, or API diagram
-
-6
 
 ### Write or generate your diagram and click Publish
 

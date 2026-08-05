@@ -21,8 +21,6 @@ import Head from '@docusaurus/Head';
 </Head>
 
 
-Atlassian Marketplace App
-
 # Simple, Transparent Pricing
 
 Free to start — no credit card required. The Lite plan is permanently free for up to 100 diagrams per space. Upgrade when you need more.

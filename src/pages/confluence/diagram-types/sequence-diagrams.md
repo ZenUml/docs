@@ -31,6 +31,8 @@ Write sequence diagrams as code directly inside Confluence using ZenUML DSL — 
 
 ✓ OMG UML 2.5.1 compliant ✓ 2-3× more concise than PlantUML ✓ Renders in-browser — zero server upload ✓ Free Lite plan — no credit card
 
+![The ZenUML editor in Confluence: DSL source on the left, the rendered UML sequence diagram updating live on the right. Selecting a line of code highlights the corresponding message on the diagram.](/img/docs/product-zenuml-confluence-07.png)
+
 ## What is a ZenUML Sequence Diagram?
 
 A ZenUML sequence diagram is an **OMG UML 2.5.1-compliant sequence diagram** written in **ZenUML DSL** — a concise text syntax designed specifically for sequence diagrams. Unlike generic UML tools that require a graphical editor, ZenUML lets you write diagrams the same way you write code: as plain text that you can version, diff, review in pull requests, and store alongside your source code.

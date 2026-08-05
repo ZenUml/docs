@@ -103,25 +103,17 @@ Both diagram types coexist in the same ZenUML for Confluence installation. You c
 
 The DrawIO editor is embedded inside Confluence — nothing to install beyond the ZenUML Forge app.
 
-1
-
 ### Insert the macro
 
 On any Confluence page, type `/ZenUML` or open the macro picker. Select **Graph** as the diagram type.
-
-2
 
 ### DrawIO editor opens
 
 The full DrawIO canvas opens in a **fullscreen modal** — shape panel on the left, canvas in the centre, properties on the right. The complete diagrams.net experience, inside Confluence.
 
-3
-
 ### Create or edit your diagram
 
 Drag shapes from the library, draw connectors, add labels, apply styles, and arrange your layout. You can also paste in existing DrawIO XML to import a diagram you already have.
-
-4
 
 ### Click Save & Exit
 
@@ -191,8 +183,6 @@ Confluence installs
 4.8 ★
 
 Marketplace rating
-
-6
 
 Diagram types in one app
 
