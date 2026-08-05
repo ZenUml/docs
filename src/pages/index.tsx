@@ -98,11 +98,18 @@ function HomepageHeader() {
 
           <div className={styles.heroRight}>
             <div className={styles.previewWrapper}>
-              <img
-                src="/img/zenuml-preview.png"
-                alt="ZenUML Preview"
-                className={styles.previewImage}
-              />
+              <picture>
+                <source srcSet="/img/zenuml-preview.webp" type="image/webp" />
+                <img
+                  src="/img/zenuml-preview.png"
+                  alt="ZenUML Preview"
+                  className={styles.previewImage}
+                  width={1536}
+                  height={968}
+                  loading="eager"
+                  fetchPriority="high"
+                />
+              </picture>
               <div className={styles.previewGlow} />
             </div>
           </div>
@@ -218,6 +225,14 @@ export default function Home(): JSX.Element {
       description="ZenUML is a diagram-as-code tool for sequence diagrams and more. Write concise text, get interactive diagrams instantly — no server-side rendering required."
     >
       <Head>
+        {/* LCP image on this page — preload the WebP the <picture> in
+            HomepageHeader will actually pick. */}
+        <link
+          rel="preload"
+          as="image"
+          href="/img/zenuml-preview.webp"
+          fetchPriority="high"
+        />
         {homepageJsonLd.map((schema, idx) => (
           <script key={idx} type="application/ld+json">
             {JSON.stringify(schema)}
