@@ -18,6 +18,11 @@ keywords:
 
 # ZenUML Diagrams For Confluence
 
+*This page describes an earlier version of the app, installed via the Atlassian Universal Plugin Manager
+(UPM). The current app is a Confluence **Cloud-only** Atlassian Forge app, installed from the Atlassian
+Marketplace — see [ZenUML for Confluence](/confluence/install/) for the current installation flow. This
+page is kept for historical reference and has not been rewritten.*
+
 For features, pricing, diagram types and FAQ, see [ZenUML for Confluence](/confluence). This page covers
 installation and day-to-day use.
 
@@ -95,7 +100,7 @@ In the latest version, we have integrated mermaid into the plugin.
 
 We compliance with the [Atlassian security self-assessment](https://developer.atlassian.com/platform/marketplace/security-self-assessment-program/).
 
-We do not store or access any of your data. ZenUML App is following a Serverless architecture style, **unlike** other products, all ZenUML diagrams are generated within browser using HTML (+SVG), JavaScript and CSS. The following diagram shows a high-level architecture of the Application.
+We do not store or access any of your data beyond what Confluence itself stores. ZenUML App follows a Serverless architecture style; **unlike** other products, most ZenUML diagram types are generated within the browser using HTML (+SVG), JavaScript and CSS. PlantUML is the exception — its source is sent to the public plantuml.com rendering service to produce the image, which is standard for PlantUML integrations. The following diagram shows a high-level architecture of the Application.
 
 ![](../../static/img/docs/product-zenuml-confluence-09.png)
 
