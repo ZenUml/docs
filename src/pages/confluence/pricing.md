@@ -36,7 +36,7 @@ Forever free · No credit card
 - Full editor with syntax highlighting
 - View diagrams in Confluence pages
 - Fullscreen viewer
-- Export diagrams as PNG/SVG
+- Export diagrams as PNG
 - Embed existing diagrams across pages
 - Available on Atlassian Marketplace at no cost
 
@@ -70,7 +70,7 @@ Per-user pricing · [See current price on Marketplace](https://marketplace.atlas
 | Live diagram preview while editing | ✓ | ✓ |
 | View diagrams in Confluence pages | ✓ | ✓ |
 | Fullscreen viewer | ✓ | ✓ |
-| Export as PNG / SVG | ✓ | ✓ |
+| Export as PNG | ✓ | ✓ |
 | **Platform & Billing** |  |  |
 | Available on Atlassian Marketplace | ✓ | ✓ |
 | Credit card required | ✗ No | Via Atlassian |

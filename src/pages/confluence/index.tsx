@@ -40,7 +40,7 @@ const faqs: { q: string; a: string }[] = [
   },
   {
     q: 'How does ZenUML compare to Gliffy and Lucidchart?',
-    a: 'ZenUML stores diagrams as plain text (ZenUML DSL, Mermaid, PlantUML), making them versionable and diffable. One app covers ZenUML, Mermaid, PlantUML, DrawIO and OpenAPI, where Gliffy and Lucidchart are format-specific. All rendering is in-browser, so diagram content never reaches ZenUML servers. And the Lite tier is genuinely free, not a timed trial.',
+    a: 'ZenUML stores diagrams as plain text (ZenUML DSL, Mermaid, PlantUML), making them versionable and diffable. One app covers ZenUML, Mermaid, PlantUML, DrawIO and OpenAPI, where Gliffy and Lucidchart are format-specific. ZenUML, Mermaid, DrawIO and OpenAPI render in-browser, so that diagram content never reaches ZenUML servers; PlantUML is the exception — its source is sent to the public plantuml.com rendering service, standard for PlantUML integrations. And the Lite tier is genuinely free, not a timed trial.',
   },
   {
     q: 'Can I use Mermaid syntax in Confluence with ZenUML?',
@@ -52,7 +52,7 @@ const faqs: { q: string; a: string }[] = [
   },
   {
     q: 'Is my diagram content sent to external servers?',
-    a: 'No. All diagram rendering — ZenUML, Mermaid, PlantUML, DrawIO and OpenAPI — happens entirely in the browser using client-side engines. Your diagram source and rendered output are never transmitted to ZenUML servers. Diagrams are stored as Confluence custom content within your Atlassian instance, which suits teams with strict data residency or confidentiality requirements.',
+    a: 'ZenUML, Mermaid, DrawIO and OpenAPI render entirely in the browser using client-side engines — your diagram source and rendered output are never transmitted to ZenUML servers for those types. PlantUML is the exception: its source is sent to the public plantuml.com rendering service to produce the image, which is standard for how PlantUML works in every Confluence integration. Diagrams are stored as Confluence custom content within your Atlassian instance, which suits teams with strict data residency or confidentiality requirements — factor the PlantUML exception in if that applies to you.',
   },
   {
     q: 'What is the difference between the Lite and Full versions?',
@@ -75,7 +75,7 @@ const jsonLd = [
     operatingSystem: 'Atlassian Confluence Cloud',
     url: 'https://zenuml.com/confluence/',
     description:
-      'ZenUML for Confluence is an Atlassian Forge app that enables teams to create and maintain diagrams directly inside Confluence Cloud pages. It supports six diagram types: ZenUML sequence diagrams (OMG UML 2.5.1), Mermaid, PlantUML, DrawIO flowcharts, OpenAPI/Swagger specs, and embedded diagrams. Diagrams are rendered in the browser — no content is sent to external servers.',
+      'ZenUML for Confluence is an Atlassian Forge app that enables teams to create and maintain diagrams directly inside Confluence Cloud pages. It supports six diagram types: ZenUML sequence diagrams (OMG UML 2.5.1), Mermaid, PlantUML, DrawIO flowcharts, OpenAPI/Swagger specs, and embedded diagrams. ZenUML, Mermaid, DrawIO and OpenAPI render in the browser; PlantUML is the exception and is sent to the public plantuml.com rendering service.',
     featureList: [
       'ZenUML sequence diagrams (OMG UML 2.5.1 compliant)',
       'Mermaid diagrams',
@@ -84,10 +84,10 @@ const jsonLd = [
       'OpenAPI / Swagger specification rendering',
       'Diagram embedding',
       'Fullscreen editor with live preview',
-      'Export to PNG and PDF',
+      'Export to PNG',
       'Version history',
-      'AI-assisted diagram generation',
-      'Privacy-first: all rendering in-browser',
+      'AI-assisted syntax repair and title suggestions; Diagramly AI assistant on Full',
+      'Privacy-first: ZenUML, Mermaid, DrawIO and OpenAPI render in-browser (PlantUML uses plantuml.com)',
       'Copy diagram source code',
     ],
     offers: [
@@ -206,7 +206,7 @@ const features = [
   {
     title: 'Private by design',
     icon: <IconShieldLock size={32} stroke={1.75} />,
-    text: 'All rendering happens in the browser. Diagram content is stored in Confluence and never reaches ZenUML servers.',
+    text: 'ZenUML, Mermaid, DrawIO and OpenAPI render in the browser and never reach ZenUML servers. PlantUML is the exception — it renders via the public plantuml.com service.',
   },
   {
     title: 'Live preview',
@@ -219,9 +219,9 @@ const features = [
     text: 'Open any diagram in a fullscreen editor with syntax highlighting when the work needs room.',
   },
   {
-    title: 'PNG & SVG export',
+    title: 'PNG export',
     icon: <IconFileExport size={32} stroke={1.75} />,
-    text: 'Export any diagram as an image for slides, tickets or docs outside Confluence.',
+    text: 'Export any diagram as a PNG image for slides, tickets or docs outside Confluence.',
   },
   {
     title: 'Version history',
@@ -288,8 +288,8 @@ export default function ConfluenceHub(): JSX.Element {
                 minutes
               </li>
               <li>
-                <IconCircleCheck size={18} stroke={2} /> Renders in-browser —
-                private by design
+                <IconCircleCheck size={18} stroke={2} /> 5 of 6 types render
+                in-browser — private by design
               </li>
             </ul>
           </div>
@@ -427,22 +427,30 @@ export default function ConfluenceHub(): JSX.Element {
                 loading="lazy"
               />
               <figcaption>
-                Rendering stays on the client side; diagram content never
-                leaves your Atlassian instance.
+                Rendering stays client-side for five of six diagram types;
+                diagram content never leaves your Atlassian instance for
+                those. PlantUML is the one exception — see below.
               </figcaption>
             </figure>
             <div>
-              <Heading as="h2">Your diagrams never leave Confluence</Heading>
+              <Heading as="h2">
+                Your diagrams stay in Confluence — with one exception
+              </Heading>
               <p>
-                Every diagram type renders <strong>in the browser</strong> with
-                client-side engines. The source text is stored as Confluence
-                custom content inside your own Atlassian instance — ZenUML
-                servers never receive it, not even for image export.
+                ZenUML sequence, Mermaid, DrawIO, OpenAPI and Embed all render{' '}
+                <strong>in the browser</strong> with client-side engines. The
+                source text is stored as Confluence custom content inside
+                your own Atlassian instance — ZenUML servers never receive
+                it, not even for PNG export.
               </p>
               <p>
-                That makes ZenUML suitable for banks, telecoms and healthcare
-                teams with strict data-residency and confidentiality
-                requirements — the environments ZenUML originally came from.
+                <strong>PlantUML is the exception:</strong> its source is sent
+                to the public plantuml.com rendering service to produce the
+                image, which is standard for how PlantUML works in every
+                Confluence integration. Teams with strict data-residency or
+                confidentiality requirements should account for this when
+                choosing PlantUML versus ZenUML DSL or Mermaid for sequence
+                diagrams.
               </p>
             </div>
           </div>
@@ -463,7 +471,7 @@ export default function ConfluenceHub(): JSX.Element {
                 <li>Up to 100 diagrams per Confluence space</li>
                 <li>All 6 diagram types included</li>
                 <li>Full editor, live preview, fullscreen viewer</li>
-                <li>PNG / SVG export</li>
+                <li>PNG export</li>
               </ul>
               <Link className={styles.ctaPrimary} href={MARKETPLACE_LITE}>
                 Install Lite free

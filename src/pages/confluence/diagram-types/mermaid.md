@@ -35,7 +35,7 @@ Mermaid is an open-source JavaScript library that generates diagrams from a plai
 
 Mermaid is widely adopted across the developer toolchain. GitHub renders Mermaid code blocks natively in READMEs and pull request descriptions. GitLab, Notion, and many documentation platforms do the same. When you write a diagram as Mermaid source code, it becomes a first-class text artifact: reviewable in a code review, diffable in version control, and portable across every tool that speaks Mermaid.
 
-ZenUML for Confluence brings the same Mermaid.js library into your Atlassian workspace. Paste a diagram you drafted in a GitHub README, write one from scratch in the live editor, or let AI generate a starting draft — all within the page you are already editing.
+ZenUML for Confluence brings the same Mermaid.js library into your Atlassian workspace. Paste a diagram you drafted in a GitHub README, write one from scratch in the live editor, or paste in a draft from any external AI assistant — all within the page you are already editing.
 
 ## Mermaid syntax at a glance
 

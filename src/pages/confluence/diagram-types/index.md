@@ -27,7 +27,7 @@ ZenUML for Confluence covers every diagramming need your engineering and documen
 
 [⚡ Install Free — Lite Plan](https://marketplace.atlassian.com/search?query=zenuml+lite&hosting=cloud&product=confluence) · [See All Features](/confluence/features/)
 
-✓ All 6 types on the free Lite plan ✓ All rendering in-browser — private by design ✓ One macro, one picker — choose the type on insert
+✓ All 6 types on the free Lite plan ✓ 5 of 6 types render in-browser — private by design (PlantUML uses plantuml.com) ✓ One macro, one picker — choose the type on insert
 
 ## Choose the Right Diagram Type
 
@@ -35,7 +35,7 @@ Each type targets a different authoring workflow. Pick the one that fits your di
 
 ## Sequence Diagrams
 
-Write UML 2.5.1-compliant sequence diagrams in **ZenUML DSL** — a concise, readable text syntax. Live preview updates as you type. AI-assisted generation included. Ideal for teams who want diagrams that live alongside code.
+Write UML 2.5.1-compliant sequence diagrams in **ZenUML DSL** — a concise, readable text syntax. Live preview updates as you type. AI-assisted syntax repair and title suggestions included; the Diagramly AI assistant is available on Full. Ideal for teams who want diagrams that live alongside code.
 
 - REST and gRPC API call flows
 - Microservice interaction documentation

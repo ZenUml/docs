@@ -16,7 +16,7 @@ unlisted: false
 import Head from '@docusaurus/Head';
 
 <Head>
-<script type="application/ld+json">{`{"@context": "https://schema.org", "@type": "HowTo", "mainEntityOfPage": {"@type": "WebPage", "@id": "https://zenuml.com/confluence/install/"}, "name": "How to Install ZenUML for Confluence", "description": "Install ZenUML for Confluence Cloud from the Atlassian Marketplace and create your first diagram in under 2 minutes.", "totalTime": "PT2M", "estimatedCost": {"@type": "MonetaryAmount", "currency": "USD", "value": "0"}, "supply": [{"@type": "HowToSupply", "name": "Confluence Cloud site"}, {"@type": "HowToSupply", "name": "Atlassian account with admin or space-admin role"}], "step": [{"@type": "HowToStep", "position": 1, "name": "Go to the Atlassian Marketplace", "text": "Visit the Atlassian Marketplace and search for ZenUML. You can go directly to the Lite (free) or Full (paid) listing.", "url": "https://marketplace.atlassian.com/search?query=zenuml+lite&hosting=cloud&product=confluence"}, {"@type": "HowToStep", "position": 2, "name": "Choose Lite (free) or Full (paid)", "text": "Lite is free forever and supports all six diagram types for up to 100 macros per space. Full adds unlimited macros, priority support, and advanced export options."}, {"@type": "HowToStep", "position": 3, "name": "Click Get app and approve Forge permissions", "text": "Click 'Try it free' or 'Get app'. Atlassian will show you the Forge permissions the app needs — read and write access to Confluence content in the spaces where you use diagrams."}, {"@type": "HowToStep", "position": 4, "name": "Open a Confluence page in edit mode and type /diagram", "text": "Navigate to any Confluence page, enter edit mode, then type /diagram in the page body. The ZenUML macro will appear in the insert menu."}, {"@type": "HowToStep", "position": 5, "name": "Choose your diagram type", "text": "Select from Sequence (ZenUML DSL), Mermaid, DrawIO, PlantUML, OpenAPI/Swagger, or Embed."}, {"@type": "HowToStep", "position": 6, "name": "Write or generate your diagram and click Publish", "text": "Type your diagram code in the editor, or use AI generation if available. Click Publish to save the diagram to your Confluence page."}]}`}</script>
+<script type="application/ld+json">{`{"@context": "https://schema.org", "@type": "HowTo", "mainEntityOfPage": {"@type": "WebPage", "@id": "https://zenuml.com/confluence/install/"}, "name": "How to Install ZenUML for Confluence", "description": "Install ZenUML for Confluence Cloud from the Atlassian Marketplace and create your first diagram in under 2 minutes.", "totalTime": "PT2M", "estimatedCost": {"@type": "MonetaryAmount", "currency": "USD", "value": "0"}, "supply": [{"@type": "HowToSupply", "name": "Confluence Cloud site"}, {"@type": "HowToSupply", "name": "Atlassian account with admin or space-admin role"}], "step": [{"@type": "HowToStep", "position": 1, "name": "Go to the Atlassian Marketplace", "text": "Visit the Atlassian Marketplace and search for ZenUML. You can go directly to the Lite (free) or Full (paid) listing.", "url": "https://marketplace.atlassian.com/search?query=zenuml+lite&hosting=cloud&product=confluence"}, {"@type": "HowToStep", "position": 2, "name": "Choose Lite (free) or Full (paid)", "text": "Lite is free forever and supports all six diagram types for up to 100 macros per space. Full adds unlimited macros and priority support."}, {"@type": "HowToStep", "position": 3, "name": "Click Get app and approve Forge permissions", "text": "Click 'Try it free' or 'Get app'. Atlassian will show you the Forge permissions the app needs — read and write access to Confluence content in the spaces where you use diagrams."}, {"@type": "HowToStep", "position": 4, "name": "Open a Confluence page in edit mode and type /diagram", "text": "Navigate to any Confluence page, enter edit mode, then type /diagram in the page body. The ZenUML macro will appear in the insert menu."}, {"@type": "HowToStep", "position": 5, "name": "Choose your diagram type", "text": "Select from Sequence (ZenUML DSL), Mermaid, DrawIO, PlantUML, OpenAPI/Swagger, or Embed."}, {"@type": "HowToStep", "position": 6, "name": "Write or generate your diagram and click Publish", "text": "Type your diagram code in the editor, or use AI generation if available. Click Publish to save the diagram to your Confluence page."}]}`}</script>
 </Head>
 
 
@@ -42,7 +42,7 @@ Open [marketplace.atlassian.com](https://marketplace.atlassian.com/search?query=
 
 ### Choose Lite (free) or Full (paid)
 
-**Lite** is free forever — all six diagram types, up to 100 macros per space, no time limit. **Full** removes the per-space macro limit, adds priority support, and unlocks advanced PDF export and custom branding options.
+**Lite** is free forever — all six diagram types, up to 100 macros per space, no time limit. **Full** removes the per-space macro limit and adds priority support. Diagram export is PNG on every plan; Confluence's own page export (Word/PDF) includes a snapshot of the diagram wherever it appears on a page.
 
 ### Click "Try it free" / "Get app" and approve Forge permissions
 
@@ -82,7 +82,7 @@ ZenUML reads page context so it can load diagram data stored as custom content o
 
 When you click Publish, ZenUML saves your diagram code as Confluence custom content (a first-class Confluence data type). This is the only write operation — it does not modify page text, titles, or any other page content.
 
-Diagram source code and rendered output stay inside your Confluence site. ZenUML uses a Cloudflare Workers backend only for license checks and optional telemetry — your diagram content is never sent there.
+Diagram source code is stored inside your Confluence site as custom content. ZenUML uses a Cloudflare Workers backend only for license checks and optional telemetry — your diagram content is never sent there. Rendering itself happens client-side in the browser for ZenUML, Mermaid, DrawIO, and OpenAPI; PlantUML is the exception, since its source is sent to the public plantuml.com rendering service to produce the image.
 
 ZenUML does not request access to Jira, Bitbucket, user profiles, email addresses, or any Atlassian product outside the Confluence content API.
 
@@ -114,7 +114,7 @@ Per-user Atlassian billing. 30-day free trial.
 
 - Everything in Lite
 - Unlimited macros per space
-- Advanced PDF export
+- The Diagramly AI assistant in the editor
 - Priority email support
 - SLA for enterprise customers
 
