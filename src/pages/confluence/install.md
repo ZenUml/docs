@@ -13,6 +13,13 @@ keywords:
 unlisted: false
 ---
 
+import Head from '@docusaurus/Head';
+
+<Head>
+<script type="application/ld+json">{`{"@context": "https://schema.org", "@type": "HowTo", "name": "How to Install ZenUML for Confluence", "description": "Install ZenUML for Confluence Cloud from the Atlassian Marketplace and create your first diagram in under 2 minutes.", "totalTime": "PT2M", "estimatedCost": {"@type": "MonetaryAmount", "currency": "USD", "value": "0"}, "supply": [{"@type": "HowToSupply", "name": "Confluence Cloud site"}, {"@type": "HowToSupply", "name": "Atlassian account with admin or space-admin role"}], "step": [{"@type": "HowToStep", "position": 1, "name": "Go to the Atlassian Marketplace", "text": "Visit the Atlassian Marketplace and search for ZenUML. You can go directly to the Lite (free) or Full (paid) listing.", "url": "https://marketplace.atlassian.com/search?query=zenuml+lite&hosting=cloud&product=confluence"}, {"@type": "HowToStep", "position": 2, "name": "Choose Lite (free) or Full (paid)", "text": "Lite is free forever and supports all six diagram types for up to 100 macros per space. Full adds unlimited macros, priority support, and advanced export options."}, {"@type": "HowToStep", "position": 3, "name": "Click Get app and approve Forge permissions", "text": "Click 'Try it free' or 'Get app'. Atlassian will show you the Forge permissions the app needs — read and write access to Confluence content in the spaces where you use diagrams."}, {"@type": "HowToStep", "position": 4, "name": "Open a Confluence page in edit mode and type /diagram", "text": "Navigate to any Confluence page, enter edit mode, then type /diagram in the page body. The ZenUML macro will appear in the insert menu."}, {"@type": "HowToStep", "position": 5, "name": "Choose your diagram type", "text": "Select from Sequence (ZenUML DSL), Mermaid, DrawIO, PlantUML, OpenAPI/Swagger, or Embed."}, {"@type": "HowToStep", "position": 6, "name": "Write or generate your diagram and click Publish", "text": "Type your diagram code in the editor, or use AI generation if available. Click Publish to save the diagram to your Confluence page."}]}`}</script>
+</Head>
+
+
 [Home](/confluence/) › Install
 
 # Get ZenUML in Your Confluence in 2 Minutes

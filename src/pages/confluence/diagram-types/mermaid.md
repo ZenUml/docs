@@ -13,6 +13,13 @@ keywords:
 unlisted: false
 ---
 
+import Head from '@docusaurus/Head';
+
+<Head>
+<script type="application/ld+json">{`{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What Mermaid diagram types are supported in ZenUML for Confluence?", "acceptedAnswer": {"@type": "Answer", "text": "ZenUML for Confluence supports eleven Mermaid diagram types: flowchart, sequence, class, stateDiagram, erDiagram, gantt, pie, journey, gitgraph, quadrantChart, and xychart. This covers all of the most commonly used Mermaid diagram types."}}, {"@type": "Question", "name": "Is Mermaid syntax the same as GitHub Markdown?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. ZenUML for Confluence uses the same Mermaid.js library that GitHub, GitLab, and Notion use to render fenced Mermaid code blocks. A diagram that renders in a GitHub README will render identically in Confluence using ZenUML — no syntax changes required."}}, {"@type": "Question", "name": "Can I copy a Mermaid diagram from GitHub into Confluence?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. Copy the Mermaid source code from your GitHub README or pull request, paste it into a ZenUML macro set to the Mermaid type, and it will render immediately. The syntax is identical — there is no translation step."}}, {"@type": "Question", "name": "How do I create a flowchart in Confluence?", "acceptedAnswer": {"@type": "Answer", "text": "Insert a ZenUML macro on your Confluence page, select the Mermaid diagram type, and type or paste your flowchart using Mermaid's graph or flowchart syntax. For example: 'graph TD; A[Start] --> B{Decision}; B -- Yes --> C[Action]; B -- No --> D[End]'. The diagram renders live as you type."}}, {"@type": "Question", "name": "Does Mermaid support ER diagrams and database schemas?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. The erDiagram type in Mermaid lets you define entities, attributes, and relationships (one-to-one, one-to-many, many-to-many) using a simple text syntax. ZenUML for Confluence renders erDiagram fully in the browser — it is well suited for documenting database schemas alongside your Confluence architecture pages."}}]}`}</script>
+</Head>
+
+
 1. [Home](/confluence/)
 2. ›
 3. [Diagram Types](/confluence/diagram-types/)

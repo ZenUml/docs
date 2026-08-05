@@ -13,6 +13,13 @@ keywords:
 unlisted: false
 ---
 
+import Head from '@docusaurus/Head';
+
+<Head>
+<script type="application/ld+json">{`{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Does ZenUML for Confluence work with both Lite and Full variants?", "acceptedAnswer": {"@type": "Answer", "text": "Most features are available in both variants. The Lite variant (free) includes live preview, fullscreen editor, version history, PNG export, and all 6 diagram types. AI-assisted generation and PDF export are available in the Full (paid) variant. See the comparison table for a complete breakdown."}}, {"@type": "Question", "name": "Is my diagram content sent to ZenUML servers during rendering?", "acceptedAnswer": {"@type": "Answer", "text": "No. All diagram rendering — ZenUML sequence, Mermaid, PlantUML, OpenAPI, and Embed types — happens entirely in the browser. Your diagram source code never leaves your Confluence instance during the rendering process. Only DrawIO syncs canvas state to Cloudflare-backed storage as part of the DrawIO integration."}}, {"@type": "Question", "name": "Can I export diagrams to PNG or PDF?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. PNG export is available in all variants from both view mode and edit mode. PDF export is available in the Full variant. Both formats are generated client-side from the rendered diagram — no server round-trip needed."}}, {"@type": "Question", "name": "How does the AI diagram generation feature work?", "acceptedAnswer": {"@type": "Answer", "text": "The AI generation feature, available in the Lite variant via Diagramly AI, lets you describe a diagram in plain text or paste page content, and it produces a diagram code draft. You can then edit and refine the generated code in the live editor before saving."}}, {"@type": "Question", "name": "What does 'Diagram as Code' mean for my team?", "acceptedAnswer": {"@type": "Answer", "text": "All diagram types except DrawIO store diagrams as plain text source code. This means you can copy the source, store it in a Git repository, review changes in pull requests, and diff diagram versions over time — the same workflow your engineers already use for code. DrawIO stores an XML-based format that is also human-readable."}}]}`}</script>
+</Head>
+
+
 1. [Home](/confluence/)
 2. ›
 3. Features
