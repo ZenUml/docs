@@ -21,7 +21,7 @@ const HomepageContent: FC<Props> = (props) => {
           <div className={styles.desc}>{content}</div>
         </div>
         <div className={styles.image}>
-          <img src={image} alt={title} />
+          <img src={image} alt={title} loading="lazy" />
         </div>
       </div>
     </div>

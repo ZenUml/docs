@@ -238,6 +238,15 @@ export default function ConfluenceHub(): JSX.Element {
     >
       <Head>
         <link rel="canonical" href="https://zenuml.com/confluence/" />
+        {/* LCP image on this page — preload the WebP the <picture> below will
+            actually pick, so the browser starts the fetch before it parses
+            the <img> tag. */}
+        <link
+          rel="preload"
+          as="image"
+          href="/img/docs/product-zenuml-for-confluence-05.webp"
+          fetchPriority="high"
+        />
         {jsonLd.map((schema, idx) => (
           <script key={idx} type="application/ld+json">
             {JSON.stringify(schema)}
@@ -292,13 +301,20 @@ export default function ConfluenceHub(): JSX.Element {
                 <span />
                 <span />
               </div>
-              <img
-                src="/img/docs/product-zenuml-for-confluence-05.png"
-                alt="ZenUML editor in Confluence: DSL source on the left, rendered sequence diagram on the right"
-                width={1400}
-                height={701}
-                loading="eager"
-              />
+              <picture>
+                <source
+                  srcSet="/img/docs/product-zenuml-for-confluence-05.webp"
+                  type="image/webp"
+                />
+                <img
+                  src="/img/docs/product-zenuml-for-confluence-05.png"
+                  alt="ZenUML editor in Confluence: DSL source on the left, rendered sequence diagram on the right"
+                  width={1400}
+                  height={701}
+                  loading="eager"
+                  fetchPriority="high"
+                />
+              </picture>
             </div>
             <DslCard />
           </div>
