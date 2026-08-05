@@ -20,11 +20,6 @@ import Head from '@docusaurus/Head';
 </Head>
 
 
-1. [Home](/confluence/)
-2. ›
-3. Features
-
-All Features
 
 # Everything You Need to Diagram in Confluence
 
@@ -32,7 +27,7 @@ ZenUML for Confluence brings a complete diagramming workspace directly into your
 
 [Install Free on Marketplace](https://marketplace.atlassian.com/apps/1218014/zenuml-sequence-diagram) · [Browse Diagram Types](/confluence/diagram-types/)
 
-Editing Experience
+![A rendered ZenUML sequence diagram on a Confluence page with the macro toolbar — edit, fullscreen, and export controls.](/img/docs/product-zenuml-for-confluence-04.png)
 
 ## A workspace built for flow
 
@@ -48,8 +43,6 @@ The diagram renders in real time as you type — no save required. Syntax errors
 
 All diagram types except DrawIO are stored as plain text source code in Confluence custom content. Copy the source into Git, review diagram changes in PRs, and diff versions over time — the same workflow your engineers already use for code.
 
-Export & Sharing
-
 ## Get diagrams out of Confluence
 
 ### Export to PNG & PDF
@@ -64,8 +57,6 @@ Copy the full diagram source code to the clipboard with a single click. Paste it
 
 Browse the full edit history of any diagram, preview any past version, and restore a previous state with one click. Version history is stored as Confluence custom content versions — no external database required.
 
-Diagram Intelligence
-
 ## Smarter diagramming, on your terms
 
 ### AI-Assisted Generation
@@ -79,8 +70,6 @@ ZenUML sequence, Mermaid, PlantUML, OpenAPI, and Embed diagrams render entirely 
 ### Atlassian Forge
 
 Built entirely on modern Atlassian Forge — not the legacy Connect framework. Forge runs in a sandboxed V8 isolate with no persistent server or auth-token storage on ZenUML infrastructure. Permissions are declared in the app manifest and reviewed by Atlassian at install time.
-
-Advanced Diagram Types
 
 ## Beyond sequence diagrams
 
@@ -97,8 +86,6 @@ Paste an OpenAPI 3.x or Swagger 2.x specification into the macro and it renders 
 Embed an existing ZenUML, Mermaid, DrawIO, or OpenAPI macro from any Confluence page into another page. Changes to the source diagram propagate automatically — one source of truth, many viewers.
 
 [See all 6 diagram types in detail →](/confluence/diagram-types/)
-
-Compare Plans
 
 ## ZenUML Lite vs Full
 
@@ -124,8 +111,6 @@ The Lite variant is free forever. The Full variant adds PDF export, premium supp
 
 [See full pricing details →](/confluence/pricing/)
 
-FAQ
-
 ## Frequently asked questions
 
 ### Does ZenUML for Confluence work with both Lite and Full variants?
@@ -147,8 +132,6 @@ The AI generation feature, available in the Lite variant via Diagramly AI, lets 
 ### What does "Diagram as Code" mean for my team?
 
 All diagram types except DrawIO store diagrams as plain text source code in Confluence custom content. This means you can copy the source, store it in a Git repository, review changes in pull requests, and diff diagram versions over time — the same workflow your engineers already use for code. DrawIO stores an XML-based format that is also human-readable.
-
-Get started for free
 
 ## Start diagramming for free
 

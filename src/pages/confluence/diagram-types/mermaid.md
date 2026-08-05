@@ -20,13 +20,6 @@ import Head from '@docusaurus/Head';
 </Head>
 
 
-1. [Home](/confluence/)
-2. ›
-3. [Diagram Types](/confluence/diagram-types/)
-4. ›
-5. Mermaid
-
-Diagram Types
 
 # Mermaid Diagrams in Confluence
 
@@ -34,7 +27,7 @@ Write Mermaid.js syntax directly in your Confluence pages and get flowcharts, se
 
 [Install Free on Marketplace](https://marketplace.atlassian.com/apps/1218014/zenuml-sequence-diagram) · [All Diagram Types](/confluence/diagram-types/)
 
-About Mermaid
+![Mermaid source code on the left and the rendered diagram on the right — how Mermaid content is edited in the ZenUML macro.](/img/confluence/mermaid-code-to-diagram.png)
 
 ## What is Mermaid?
 
@@ -44,15 +37,11 @@ Mermaid is widely adopted across the developer toolchain. GitHub renders Mermaid
 
 ZenUML for Confluence brings the same Mermaid.js library into your Atlassian workspace. Paste a diagram you drafted in a GitHub README, write one from scratch in the live editor, or let AI generate a starting draft — all within the page you are already editing.
 
-Live Example
-
 ## Mermaid syntax at a glance
 
 The code below is a complete Mermaid flowchart. Paste it into a ZenUML macro set to the Mermaid type and it renders immediately — no configuration required.
 
 This syntax is identical to what you would write in a GitHub README fenced code block — no changes required when moving between tools.
-
-Supported Types
 
 ## Supported Mermaid diagram types
 
@@ -102,75 +91,49 @@ Two-axis quadrant charts for plotting items by two dimensions — prioritisation
 
 Bar and line charts on x/y axes — for visualising metrics, trends, and time-series data inline.
 
-Benefits
-
 ## Why use Mermaid in Confluence?
-
-1
 
 ### Same syntax as GitHub and GitLab
 
 Engineers who already write Mermaid in pull request descriptions and README files can paste that exact code into Confluence without any translation. There is no new syntax to learn and no format conversion step.
 
-2
-
 ### Diagrams that live next to the docs
 
 Because the diagram source is plain text stored in Confluence custom content, it lives on the same page as the documentation that references it. No switching to Lucidchart, no managing file attachments, no broken image links when files move.
-
-3
 
 ### Browser-only rendering — your data stays local
 
 Mermaid.js renders entirely in the visitor's browser. Diagram source code is never sent to ZenUML servers or any third-party rendering service during the display process. This matters for teams with strict data residency requirements.
 
-4
-
 ### Version-controllable architecture documentation
 
 Text-based diagrams integrate naturally with a "docs as code" workflow. Store the Mermaid source in your repository, review diagram changes in pull requests, and keep the Confluence page in sync by pasting updated code — no export/import loop.
-
-5
 
 ### Live preview eliminates save-to-check cycles
 
 The ZenUML editor renders the diagram in real time as you type. Syntax errors surface inline before you save. You never have to publish a page just to check whether your flowchart looks correct.
 
-Use Cases
-
 ## Who uses Mermaid in Confluence — and how
-
-Developers
 
 ### Documenting system architecture
 
 Engineering teams use `flowchart` and `class` diagrams to document microservice boundaries, dependency graphs, and component relationships alongside their design documents — updating diagrams in the same PR that changes the code.
 
-Architects
-
 ### Modelling database schemas
 
 Solutions architects use `erDiagram` to capture entity-relationship models in Confluence, giving product managers and QA engineers a readable view of the database schema without requiring access to a database tool or migration files.
-
-Developers
 
 ### Explaining Git branching strategies
 
 Platform and DevOps teams use `gitgraph` to illustrate branching models (GitFlow, trunk-based development, release branches) in onboarding wikis so new engineers can visualise the workflow before touching the repository.
 
-Product Managers
-
 ### Mapping user journeys and feature flows
 
 PMs use `journey` and `flowchart` diagrams to sketch user flows and satisfaction maps in product specification pages, giving designers and engineers a shared reference without importing assets from a separate design tool.
 
-Project Managers
-
 ### Tracking project timelines with Gantt charts
 
 Project leads use `gantt` diagrams to embed lightweight project timelines directly in Confluence milestone pages. The plain-text format means any team member can update a task duration or add a dependency without needing a separate PM tool.
-
-FAQ
 
 ## Frequently asked questions
 
@@ -193,8 +156,6 @@ Insert a ZenUML macro on your Confluence page, select the Mermaid diagram type i
 ### Does Mermaid support ER diagrams and database schemas?
 
 Yes. The `erDiagram` type in Mermaid lets you define entities, attributes, and relationships — one-to-one, one-to-many, and many-to-many — using a simple text syntax. For example: `CUSTOMER ||--o{ ORDER : "places"` defines a one-to-many relationship between a customer and their orders. ZenUML for Confluence renders `erDiagram` fully in the browser, with no server-side processing. It is well suited for documenting database schemas directly alongside your Confluence architecture and API design pages.
-
-Get started for free
 
 ## Add Mermaid diagrams to Confluence today
 

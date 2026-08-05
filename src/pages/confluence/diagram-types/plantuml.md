@@ -59,8 +59,6 @@ All major PlantUML diagram categories are supported. Write standard `@startuml �
 
 The snippet below is a complete PlantUML class diagram. Paste it directly into the ZenUML macro editor — no modifications needed.
 
-PlantUML source
-
 ### Package grouping
 
 The `package` keyword groups related classes into a named boundary — useful for bounded-context documentation and microservice domain maps.
@@ -156,19 +154,13 @@ PlantUML in ZenUML for Confluence renders **entirely client-side in the browser*
 
 Install ZenUML for Confluence and start writing PlantUML diagrams directly on your pages. Free Lite plan. No credit card. No external accounts. Installs in under two minutes.
 
-1
-
 ### Install from Marketplace
 
 Search for **"ZenUML"** on the Atlassian Marketplace. Choose Lite (free) or Full (paid). Admin permission required.
 
-2
-
 ### Insert a ZenUML macro
 
 On any Confluence page, type `/ZenUML` or use the macro picker. Select **PlantUML** as the diagram type in the macro dialog.
-
-3
 
 ### Paste your PlantUML code
 

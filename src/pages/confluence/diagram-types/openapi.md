@@ -20,13 +20,6 @@ import Head from '@docusaurus/Head';
 </Head>
 
 
-1. [Home](/confluence/)
-2. ›
-3. [Diagram Types](/confluence/diagram-types/)
-4. ›
-5. OpenAPI
-
-OpenAPI & Swagger
 
 # Interactive API Docs in Confluence — OpenAPI & Swagger
 
@@ -44,8 +37,6 @@ The spec is stored as plain text in Confluence custom content. Rendering happens
 
 The viewer is one of six diagram types bundled in a single ZenUML for Confluence installation. It is available in both the **free Lite plan** and the paid Full plan with no difference in OpenAPI functionality between the two.
 
-Supported Formats
-
 ## OpenAPI 3.0, Swagger 2.0, JSON, YAML
 
 The viewer accepts all common OpenAPI and Swagger specification formats. Paste whichever format your toolchain already produces — no conversion step is required.
@@ -55,8 +46,6 @@ OpenAPI 3.0 / 3.1
 Swagger 2.0
 
 YAML
-
-JSON
 
 ### OpenAPI 3.x
 
@@ -69,8 +58,6 @@ The widely-used predecessor to OpenAPI 3.x. If your existing toolchain generates
 ### YAML or JSON
 
 Both serialisation formats are accepted. YAML is the more readable choice for hand-authored specs; JSON integrates cleanly with code-generation tools. Either format renders identically in Swagger UI.
-
-Example
 
 ## A minimal OpenAPI spec in Confluence
 
@@ -97,8 +84,6 @@ Keep the canonical API spec on the same Confluence page as the narrative documen
 ### Platform & Integration Teams
 
 Document internal APIs and integration contracts in the same Confluence spaces where implementation notes and runbooks live. Consumers can explore the spec interactively and test endpoints against staging without switching tools.
-
-Use Cases
 
 ## Four ways teams use the OpenAPI viewer
 
@@ -128,8 +113,6 @@ Operations and platform teams embed the relevant API spec sections in runbooks a
 
 Teams that share APIs with external partners or other internal divisions publish the spec on a Confluence space shared with those audiences. The interactive Swagger UI gives consumers a self-service reference experience without requiring a dedicated developer portal or external hosting infrastructure.
 
-Comparison
-
 ## OpenAPI viewer vs. other API documentation tools
 
 ZenUML's OpenAPI viewer is not a replacement for purpose-built API portals — it solves a different problem: keeping your spec readable and interactive inside the Confluence workspace where your team's documentation already lives.
@@ -144,8 +127,6 @@ ZenUML's OpenAPI viewer is not a replacement for purpose-built API portals — i
 | **Audience** | Teams already working in Confluence | Internal developers with server access | External developers, large API products |
 
 If you need a polished public developer portal with custom branding, versioning across many releases, and a dedicated consumer sign-up flow, a purpose-built API portal is the right tool. If you need your API spec to be readable and testable where your engineers and writers already work, the ZenUML OpenAPI viewer is the lower-friction choice.
-
-FAQ
 
 ## Frequently asked questions
 
@@ -168,8 +149,6 @@ Edit the macro and paste the updated spec into the editor, then publish the Conf
 ### Can I embed an OpenAPI spec from a URL?
 
 The ZenUML OpenAPI viewer requires the spec to be **pasted directly into the macro editor** — it does not fetch specs from an external URL at render time. This keeps the rendering fully in-browser and avoids exposing internal API URLs or requiring outbound network access from the viewer. If your spec is hosted externally, copy its content into the macro editor and update it manually when the spec changes.
-
-Get started for free
 
 ## Embed your first API spec in Confluence today
 
