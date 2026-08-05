@@ -41,7 +41,10 @@ workarounds all lose something:
   JavaScript and assets.
 
 Mini Sites removes the hosting step entirely: the folder you already have goes onto the page where the
-decision is being made.
+decision is being made. If what you have is a CI build, a docs export, or an AI-generated bundle rather
+than a hand-built prototype, see
+[publishing a generated site to a live Confluence page](/publish-website-to-confluence/) for that
+specific flow.
 
 ## How it works
 
