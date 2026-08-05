@@ -262,13 +262,22 @@ const config: Config = {
               label: 'GitHub',
               href: 'https://github.com/ZenUml',
             },
+          ],
+        },
+        {
+          title: 'Legal',
+          items: [
             {
-              label: 'EULA',
-              href: 'https://app.zenuml.com/End-User-License-Agreement/index.html',
+              label: 'About',
+              to: '/about',
             },
             {
               label: 'Privacy Policy',
-              href: 'https://app.zenuml.com/privacy-policy/privacy-policy.html',
+              to: '/privacy',
+            },
+            {
+              label: 'Terms of Use / EULA',
+              to: '/terms',
             },
           ],
         },
