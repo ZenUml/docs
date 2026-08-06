@@ -65,7 +65,7 @@ ZenUML doesn't generate a diagram from a plain-English description inside Conflu
 
 ### Privacy-First Rendering
 
-ZenUML sequence, Mermaid, OpenAPI, and Embed diagrams render entirely in the browser — diagram source code never leaves your Confluence instance during rendering, not to ZenUML servers, not to third parties. PlantUML is the exception: its source is sent to the public plantuml.com rendering service to produce the image, standard for PlantUML integrations.
+ZenUML sequence, Mermaid, DrawIO, OpenAPI, and Embed diagrams render entirely in the browser — diagram source code never leaves your Confluence instance during rendering, not to ZenUML servers, not to third parties. PlantUML is the exception: its source is sent to the public plantuml.com rendering service to produce the image, standard for PlantUML integrations.
 
 ### Atlassian Forge
 
