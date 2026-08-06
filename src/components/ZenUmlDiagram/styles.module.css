@@ -1,0 +1,36 @@
+.wrapper {
+  margin: 1.5rem 0 2rem;
+}
+
+.canvas {
+  border: 1px solid var(--ifm-color-emphasis-200);
+  border-radius: 8px;
+  padding: 1rem;
+  background: #fff;
+  overflow-x: auto;
+}
+
+/* The engine styles itself for a light canvas; keep the canvas white in dark
+   mode rather than inverting the diagram. */
+[data-theme='dark'] .canvas {
+  border-color: var(--ifm-color-emphasis-300);
+}
+
+.loading {
+  border: 1px dashed var(--ifm-color-emphasis-300);
+  border-radius: 8px;
+  padding: 2rem;
+  text-align: center;
+  color: var(--ifm-color-emphasis-600);
+}
+
+.fallback {
+  margin: 0;
+}
+
+.wrapper figcaption {
+  margin-top: 0.5rem;
+  font-size: 0.85rem;
+  color: var(--ifm-color-emphasis-600);
+  text-align: center;
+}

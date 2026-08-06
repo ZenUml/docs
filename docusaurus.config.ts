@@ -39,6 +39,13 @@ const config: Config = {
   tagline: 'Create diagrams faster and better',
   favicon: 'favicon.ico',
 
+  // Provides @theme/Mermaid for explicit live-diagram embeds (used on
+  // /confluence/diagram-types/mermaid/). markdown.mermaid stays OFF: with it on,
+  // the ```mermaid fence is rewritten to a <mermaid> element whose component
+  // mapping does not apply on src/pages MD at SSR time (verified 2026-08-06),
+  // which blanks the code sample entirely. Explicit <Mermaid value={...}/> works.
+  themes: ['@docusaurus/theme-mermaid'],
+
   // Set the production url of your site here
   url: 'https://zenuml.com',
   // Set the /<baseUrl>/ pathname under which your site is served
