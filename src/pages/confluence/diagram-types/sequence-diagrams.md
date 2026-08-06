@@ -14,6 +14,14 @@ unlisted: false
 ---
 
 import Head from '@docusaurus/Head';
+import ZenUmlDiagram from '@site/src/components/ZenUmlDiagram';
+
+export const orderFlowDsl = `title Order Flow
+
+Client -> OrderService: placeOrder(items)
+OrderService -> InventoryService: checkStock(items)
+InventoryService --> OrderService: stockAvailable
+OrderService --> Client: orderConfirmed`;
 
 <Head>
 <script type="application/ld+json">{`{"@context": "https://schema.org", "@type": "SoftwareApplication", "name": "ZenUML for Confluence — Sequence Diagrams", "alternateName": ["ZenUML Sequence Diagrams", "ZenUML DSL for Confluence"], "applicationCategory": "BusinessApplication", "applicationSubCategory": "Diagramming", "operatingSystem": "Atlassian Confluence Cloud", "url": "https://zenuml.com/confluence/diagram-types/sequence-diagrams/", "description": "ZenUML for Confluence lets engineering teams write sequence diagrams as code using ZenUML DSL — a concise, OMG UML 2.5.1-compliant text syntax that is 2-3x more concise than PlantUML. ZenUML DSL diagrams render entirely in the browser, live preview updates on every keystroke, and diagram source is stored as Confluence custom content. No content is ever sent to external servers for ZenUML DSL rendering. (PlantUML, which ZenUML for Confluence also supports as a separate diagram type, renders via the public plantuml.com service — see the PlantUML page for details.)", "featureList": ["ZenUML DSL — OMG UML 2.5.1 compliant sequence diagram syntax", "2-3x more concise than PlantUML for sequence diagrams", "Live preview — diagram updates on every keystroke", "Fully in-browser rendering — no server upload", "Actors, notes, groups (alt/loop/opt), and return arrows", "Export to PNG", "Version history via Confluence custom content", "Fullscreen split-pane editor", "AI-assisted syntax repair and title suggestions; Diagramly AI assistant on Full", "Copy source code with one click"], "offers": [{"@type": "Offer", "name": "Lite (Free)", "price": "0", "priceCurrency": "USD", "description": "Free plan — up to 100 diagrams per Confluence space."}, {"@type": "Offer", "name": "Full (Paid)", "description": "Unlimited diagrams. Available via Atlassian Marketplace subscription.", "url": "https://marketplace.atlassian.com/search?query=zenuml+confluence&hosting=cloud&product=confluence"}], "publisher": {"@type": "Organization", "name": "P&D VISION"}, "downloadUrl": "https://marketplace.atlassian.com/search?query=zenuml+lite&hosting=cloud&product=confluence"}`}</script>
@@ -53,6 +61,8 @@ OrderService -> InventoryService: checkStock(items)
 InventoryService --> OrderService: stockAvailable
 OrderService --> Client: orderConfirmed
 ```
+
+<ZenUmlDiagram code={orderFlowDsl} caption="The exact source above, rendered live in your browser by @zenuml/core — the same engine the Confluence app uses." />
 
 ✓ 5 lines of source — no boilerplate ✓ Participants auto-inferred ✓ UML 2.5.1 compliant output
 
