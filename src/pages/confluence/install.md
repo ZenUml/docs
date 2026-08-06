@@ -82,7 +82,7 @@ ZenUML reads page context so it can load diagram data stored as custom content o
 
 When you click Publish, ZenUML saves your diagram code as Confluence custom content (a first-class Confluence data type). This is the only write operation — it does not modify page text, titles, or any other page content.
 
-Diagram source code is stored inside your Confluence site as custom content. ZenUML uses a Cloudflare Workers backend only for license checks and optional telemetry — your diagram content is never sent there. Rendering itself happens client-side in the browser for ZenUML, Mermaid, DrawIO, and OpenAPI; PlantUML is the exception, since its source is sent to the public plantuml.com rendering service to produce the image.
+Diagram source code is stored inside your Confluence site as custom content, and is never sent to ZenUML's Cloudflare Workers backend, which handles license checks and optional telemetry (plus, uncommonly, a permissions-fallback relay for the export PNG backup — see the FAQ for details). Rendering itself happens client-side in the browser for ZenUML, Mermaid, DrawIO, and OpenAPI; PlantUML is the exception, since its source is sent to the public plantuml.com rendering service to produce the image.
 
 ZenUML does not request access to Jira, Bitbucket, user profiles, email addresses, or any Atlassian product outside the Confluence content API.
 
