@@ -52,7 +52,7 @@ const faqs: { q: string; a: string }[] = [
   },
   {
     q: 'Is my diagram content sent to external servers?',
-    a: 'ZenUML, Mermaid, DrawIO and OpenAPI render entirely in the browser using client-side engines — your diagram source is never transmitted to ZenUML servers for those types. PlantUML is the exception: its source is sent to the public plantuml.com rendering service to produce the image, which is standard for how PlantUML works in every Confluence integration. Separately, the rendered PNG export backup is normally uploaded straight from your browser to Confluence; as an uncommon permissions fallback it can relay through ZenUML\'s backend en route to Confluence, without being stored there. Diagrams are stored as Confluence custom content within your Atlassian instance, which suits teams with strict data residency or confidentiality requirements — factor the PlantUML exception in if that applies to you.',
+    a: 'ZenUML, Mermaid, DrawIO and OpenAPI render entirely in the browser using client-side engines — your diagram source is never transmitted to ZenUML servers for those types. PlantUML is the exception: its source is sent to the public plantuml.com rendering service to produce the image, which is standard for how PlantUML works in every Confluence integration. Separately, the rendered PNG export backup is uploaded to Confluence — sometimes directly from your browser, sometimes relayed through ZenUML\'s backend on the way — without being stored there either way. Diagrams are stored as Confluence custom content within your Atlassian instance, which suits teams with strict data residency or confidentiality requirements — factor the PlantUML exception in if that applies to you.',
   },
   {
     q: 'What is the difference between the Lite and Full versions?',
@@ -451,10 +451,10 @@ export default function ConfluenceHub(): JSX.Element {
                 confidentiality requirements should account for this when
                 choosing PlantUML versus ZenUML DSL or Mermaid for sequence
                 diagrams. Separately, the rendered PNG backup used for
-                Confluence's own page export normally uploads straight from
-                your browser to Confluence; as an uncommon permissions
-                fallback it can relay through ZenUML's backend en route,
-                without being stored there.
+                Confluence's own page export is uploaded to Confluence —
+                sometimes directly from your browser, sometimes relayed
+                through ZenUML's backend on the way — without being stored
+                there either way.
               </p>
             </div>
           </div>
